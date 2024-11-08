@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Truth End Plot Table_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: ba33a5c2d48c3b8449e70a6f5c8a4a8a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 41747578880
+    m_Localized: "\u771F \u53EF \u60DC \uFF0C \u60A8 \u53EA \u5DEE \u4E00 \u6B65
+      \u5C31 \u9003 \u51FA R O O M \uFF0C \u5DEE \u9EDE \u5C31 \u7372 \u5F97 \u734E
+      \u91D1 \u4E86 \u5462 \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46902378496
+    m_Localized: "\u96FB \u8996 \u53F0 \u5927 \u9580 \u5916 \u6709 \u5927 \u6279
+      \u5A92 \u9AD4 \u4E45 \u5019 \uFF0C \u60F3 \u8981 \u63A1 \u8A2A \u60A8 \uFF0C
+      \u4EC0 \u9EBC \uFF1F \u60A8 \u6253 \u7B97 \u5F9E \u5730 \u4E0B \u5BA4 \u6E9C
+      \u8D70 \uFF1F "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74760945664
+    m_Localized: "\u4E0D \u597D \u610F \u601D \uFF0C \u53EF \u4EE5 \u8ACB \u6559
+      \u60A8 \uFF0C \u70BA \u4EC0 \u9EBC \u60A8 \u9078 \u64C7 \u5728 \u6700 \u5F8C
+      \u95DC \u982D \u96E2 \u5834 \u5462 \uFF1F\r"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

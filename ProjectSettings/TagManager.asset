@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Light Sensor
+  - A
+  - B
+  - C
+  - D
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Paper Layer
+  - Drag Layer
+  - Drop Layer
+  - Switch Layer
+  - Collection Layer
+  - Panel Layer
+  - Interact Layer
+  - Static Layer
+  - Roof Layer
+  - Glow Layer
+  - Post Processing
+  - Light Sensor Layer
+  - 
+  - 
+  - Light Layer
+  - Camera Light Layer
+  - Book Room Layer
+  - Kitchen Layer
+  - Living Room Layer
+  - Bed Room Layer
+  - Bath Room 1 Layer
+  - Bath Room 2 Layer
+  - SP Layer
+  - SpeicalText
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

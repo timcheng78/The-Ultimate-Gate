@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Starting Plot Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Starting Plot Table
+  m_TableCollectionNameGuidString: e46740dd559963f4a848ccce72126130
+  m_Entries:
+  - m_Id: 435714359296
+    m_Key: starting_plot_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442962116608
+    m_Key: starting_plot_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445705191424
+    m_Key: starting_plot_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457226944512
+    m_Key: starting_plot_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460125208576
+    m_Key: starting_plot_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463128330240
+    m_Key: starting_plot_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465410031616
+    m_Key: starting_plot_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 898249621504
+    m_Key: starting_plot_9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6588804464640
+    m_Key: starting_plot_8
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8103356742051561472
+  references:
+    version: 2
+    RefIds:
+    - rid: 8103356742051561472
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1719804048289

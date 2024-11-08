@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Crazy End Plot Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 92b68f8f4b6604741b7ddb39e855fbc5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 45186908160
+    m_Localized: Solving puzzles mutually
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108973883392
+    m_Localized: Like light and shadow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113193353216
+    m_Localized: I am already a puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128028606464
+    m_Localized: Also the truth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170739204096
+    m_Localized: Solve the puzzle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203119230976
+    m_Localized: Unlock yourself
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209809145856
+    m_Localized: I am you, and you are me
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218185170944
+    m_Localized: You will forever...
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

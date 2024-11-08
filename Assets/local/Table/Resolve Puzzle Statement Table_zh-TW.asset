@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Resolve Puzzle Statement Table_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: 0e5a833de904b894eabe316e9884fb4e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10221460544651264
+    m_Localized: "\u55EF \u22EF \u22EF A - Z \u554A \uFF0C \u5206 \u985E \u7684 \u9084
+      \u7B97 \u6709 \u6C34 \u6E96 \uFF0C \u4F46 \u7576 \u6210 \u6A5F \u95DC \u561B
+      \u22EF \u22EF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922112
+    m_Localized: "10 \u22EF \u22EF 62 \uFF0C \u4E0D \uFF0C \u9019 \u53EA \u662F \u5DE7
+      \u5408 \uFF0C \n\u5C0D \uFF0C \u6C92 \u4EBA \u6703 \u77E5 \u9053 \u6211 \u66FE
+      \u4F4F \u5728 1 0 \u6BB5 6 \u865F 2 \u6A13 \u90A3 \u9593 \u7834 \u721B \u96C5
+      \u623F\u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922113
+    m_Localized: "\u8A72 \u6B7B \uFF0C 0 8 3 5 \u4E5F \u4EE3 \u8868 \u4EC0 \u9EBC
+      \u55CE \uFF1F \u4E0D \u22EF \u22EF \u6211 \u600E \u9EBC \u6703 \u6709 \u9019
+      \u7A2E \u60F3 \u6CD5 \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922114
+    m_Localized: "\u7FFB \u8F49 \u9EDE \u9663 \u5716 \u7684 \u8B0E \u984C \u65E9
+      \u5728 6 \u5E74 \u524D \u88AB \u6211 \u958B \u767C \u51FA \u4F86 \u4E5D \u7A2E
+      \u6A21 \u5F0F \u3002 \n\u5728 R O O M \u64AD \u51FA \u7684 \u7B2C 4 \u548C
+      7 \u96C6 \u90FD \u51FA \u73FE \u904E \u3002 \n\u6211 \u600E \u9EBC \u9084 \u6703
+      \u60F3 \u9019 \u9EBC \u4E45 \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922115
+    m_Localized: "\u90A3 \u4E9B \u5149 \u9EDE \u662F \u4EC0 \u9EBC \uFF1F \n\u61F8
+      \u6D6E \u7684 \u7070 \u5875 \u55CE \uFF1F \u6211 \u8166 \u4E2D \u7684 \u5E7B
+      \u89BA \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794496025296896
+    m_Localized: "\u4F60 \u771F \u7684 \u6709 \u8A8D \u771F \u51DD \u8996 \u904E
+      \u5929 \u4E0A \u7684 \u6771 \u897F \u55CE \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794716859596800
+    m_Localized: "\u8EAB \u70BA \u53EF \u60B2 \u7684 \u4EBA \uFF0C \u4EC0 \u9EBC
+      \u6771 \u897F \u90FD \u8981 \u63DB \u6210 \u6578 \u5B57 \u7684 \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794760086093824
+    m_Localized: "\u5982 \u679C \u9762 \u5C0D \u6D69 \u701A \u7684 \u661F \u7A7A
+      \uFF0C \u80FD \u9019 \u9EBC \u5BB9 \u6613 \u5F97 \u5230 \u7B54 \u6848 \u55CE
+      \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697426437472256
+    m_Localized: "\u4EBA \u751F \u7684 \u8ECC \u8DE1 \u662F \u6703 \u50CF \u90A3
+      \u672C \u8A18 \u4E8B \u672C \u90A3 \u6A23 \uFF0C \u4EE5 \u67D0 \u7A2E \u5F62
+      \u5F0F \u88AB \u8A18 \u9304 \u7684 \u55CE \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697530007420928
+    m_Localized: "\u932F \u8AA4 \u7684 \u55CE \uFF1F \u8A72 \u6B7B \uFF0C \u8A18
+      \u4E8B \u672C \u4E0A \u90A3 \u4E9B \u4E82 \u4E03 \u516B \u7CDF \u7684 \u6545
+      \u4E8B \u6709 \u5E6B \u52A9 \u55CE \u22EF \u22EF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697926805356544
+    m_Localized: "\u722C \u683C \u5B50 \u662F \u4EC0 \u9EBC \u4F4E \u4FD7 \u7684
+      \u8B0E \u984C \uFF0C \u4EC0 \u9EBC \uFF01 \u932F \u4E86 \u22EF \u22EF"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698043318927360
+    m_Localized: "\u771F \u7684 \u5F88 \u8A0E \u53AD \u81EA \u4EE5 \u70BA \u6709
+      \u8DA3 \u7684 \u96B1 \u7DDA \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698120087273472
+    m_Localized: "\u5DE6 \u62D0 \u53F3 \u5F4E \uFF0C \u901A \u9054 \u8B0E \u5E95
+      \u7684 \u771F \u76F8 \u61C9 \u8A72 \u4E0D \u9060 \u4E86 \u5427 \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698283912593408
+    m_Localized: "O P E N \u5B58 \u5728 \u7684 \u597D \u591A \u7A2E \u610F \u7FA9
+      \uFF0C \u958B \u9580 \u662F \u6700 \u7C21 \u55AE \u7684 \u4E00 \u7A2E \u7406
+      \u89E3 \u3002\n\u7576 \u7136 \uFF0C \u4F60 \u4E5F \u60F3 \u4E0D \u5230 \u5176
+      \u4ED6 \u7A2E \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37424916074168320
+    m_Localized: "Y - O - G \uFF0C \u9019 \u662F \u2026 \u2026 \u7D42 \u65BC \uFF0C
+      \u6211 \u7D42 \u65BC \u5230 \u9054 \u4E86 \u6C92 \u6709 \u4EBA \u80FD \u5230
+      \u7684 \u5883 \u754C \u4E86 \u5427 \u3002\n\u8B0E \u984C \u3001 \u8B0E \u984C
+      \u3001 \u8B0E \u984C \u3001 \u8B0E \u984C \u3001 \u8B0E \u984C \u2026 \u2026"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

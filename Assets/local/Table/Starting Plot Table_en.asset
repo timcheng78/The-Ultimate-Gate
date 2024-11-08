@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Starting Plot Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: e46740dd559963f4a848ccce72126130, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 435714359296
+    m_Localized: Get up!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442962116608
+    m_Localized: What is this place?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445705191424
+    m_Localized: Cabinet, clock, painting?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457226944512
+    m_Localized: This is the first escape room from the reality show premiere five
+      years ago, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 460125208576
+    m_Localized: "A cramped room, rudimentary mechanisms... \nthe TV station spared
+      no expense in giving this new show its highest budget and resources."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463128330240
+    m_Localized: This is the starting point of 'ROOM,' and also my starting point.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465410031616
+    m_Localized: But...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 898249621504
+    m_Localized: Who's speaking?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6588804464640
+    m_Localized: I'm back here again?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Resolve Puzzle Statement Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Resolve Puzzle Statement Table
+  m_TableCollectionNameGuidString: 0e5a833de904b894eabe316e9884fb4e
+  m_Entries:
+  - m_Id: 11266549240922112
+    m_Key: demo.red.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922113
+    m_Key: demo.blue.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922114
+    m_Key: demo.green.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922115
+    m_Key: demo.door.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10221460544651264
+    m_Key: book_room.shief.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794496025296896
+    m_Key: bed_room.insurance.f.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794716859596800
+    m_Key: bed_room.insurance.f.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794760086093824
+    m_Key: bed_room.insurance.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697426437472256
+    m_Key: bed_room.air_puzzle.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697530007420928
+    m_Key: bed_room.air_puzzle.f.a
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697926805356544
+    m_Key: bath_room_1.cabinet.f.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698043318927360
+    m_Key: bath_room_1.cabinet.f.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698120087273472
+    m_Key: bath_room_1.cabinet.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698283912593408
+    m_Key: bath_room_1.puzzle.t.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37424916074168320
+    m_Key: bath_room_2.final_puzzle.t.1
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8103356763010236417
+  references:
+    version: 2
+    RefIds:
+    - rid: 8103356763010236417
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1719884223488

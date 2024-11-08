@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Truth End Plot Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: ba33a5c2d48c3b8449e70a6f5c8a4a8a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 41747578880
+    m_Localized: What a pity, you were just one step away from escaping the ROOM
+      and almost won the prize.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46902378496
+    m_Localized: "There are a large number of media waiting outside the main entrance
+      of the TV station, wanting to interview you. \nWhat? Are you planning to sneak
+      away from the basement?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74760945664
+    m_Localized: I'm sorry, may I ask you why you chose to leave the venue at the
+      last checkpoint?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Resolve Puzzle Statement Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 0e5a833de904b894eabe316e9884fb4e, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11266549240922112
+    m_Localized: "10...62. No, it's just a coincidence. \nYes, no one would know
+      I once lived in that rundown room on the second floor, No. 6, Section 10."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922113
+    m_Localized: Damn, does 0835 mean something too? No... why am I thinking like
+      this?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922114
+    m_Localized: "The puzzle of the flipped dot matrix was developed by me nine years
+      ago in six different modes. \nIt appeared in episodes 4 and 7 of ROOM. \nWhy
+      am I still thinking about it after all this time?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11266549240922115
+    m_Localized: "What are those dots of light? Floating dust? \nA hallucination
+      in my mind?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10221460544651264
+    m_Localized: Hmm... A-Z, The classification still has some standards, but as
+      a mechanism...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794496025296896
+    m_Localized: Have you really looked seriously at the things in the sky?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794716859596800
+    m_Localized: As a pathetic person, why does everything have to be converted into
+      numbers?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29794760086093824
+    m_Localized: If facing the vast starry sky, can answers really be so easily obtained?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697426437472256
+    m_Localized: Is the trajectory of life recorded in some form like that notebook?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697530007420928
+    m_Localized: Is it a mistake? Should I die? Do those chaotic stories in the notebook
+      help...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31697926805356544
+    m_Localized: What a vulgar riddle is climbing the grid? What! That's wrong...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698043318927360
+    m_Localized: I really hate those who think their hidden lines are interesting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698120087273472
+    m_Localized: Turning left and right, the truth behind the mystery should be within
+      reach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31698283912593408
+    m_Localized: O P E N has many meanings; opening a door is the simplest understanding.
+      Of course, you can't think of the others.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37424916074168320
+    m_Localized: "Y-O-G, this is... Finally, I must have reached a realm that no
+      one can reach. \nPuzzle, puzzle, puzzle, puzzle, puzzle..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

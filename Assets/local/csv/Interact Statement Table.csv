@@ -1,0 +1,43 @@
+﻿Key,Id,English(en),Japanese (Japan)(ja-JP),Chinese (Traditional)(zh-TW)
+any.any.t.1,1,Why do these things look so messy? Is this second-rate show set up incorrectly?,な ぜ こ れ ら の も の は こ ん な に 乱 れ て い る の で す か ？ こ の 二 流 の 番 組 は 設 定 ミ ス で す か ？,為 什 麼 這 些 東 西 看 起 來 這 麼 亂 ？ 這 二 流 的 節 目 是 不 是 設 置 錯 誤 了 ？
+any.any.t.2,2,"Alright, calm down, you can do this. You've solved harder puzzles before.",ま あ ま あ 、 落 ち 着 い て 、 あ な た な ら で き る 。 こ れ ま で に も っ と 難 し い 謎 を 解 決 し て き た で し ょ う 。,好 吧 ， 冷 靜 下 來 ， 你 能 做 到 的 ， 你 以 前 也 解 決 過 更 難 的 謎 題 。
+any.any.t.3,3,"You know that in some parallel universe, you've already solved this puzzle, right?",あ な た は 、 あ る 並 行 宇 宙 で は こ の 謎 が す で に 解 か れ て い る こ と を 知 っ て い る で し ょ う ？,你 知 道 這 個 謎 題 的 答 案 在 某 個 平 行 宇 宙 裡 已 經 被 你 解 開 了 ， 對 吧 ？
+any.any.t.4,4,Freaking out? These puzzles are just mocking you.,崩 壊 し て る の ？ こ れ ら の 謎 は あ な た を か ら か っ て い る だ け だ よ 。,崩 潰 嗎 ？ 這 些 謎 題 在 戲 弄 你 。
+any.any.t.5,5,"About to freak out? That's right, just like you did before.",も う す ぐ 崩 壊 し そ う ？ そ う 、 そ れ で い い 、 前 に そ う し た よ う に 。,快 崩 潰 了 嗎 ？ 這 就 對 了 ， 就 像 你 當 初 那 樣 。
+any.any.t.6,6,What did you write in the self-introduction on your application form? Puzzle Master?,申 し 込 み 用 紙 の 自 己 紹 介 欄 に 何 て 書 い た の ？ 謎 解 き マ ス タ ー ？,你 報 名 表 的 自 介 寫 的 是 ？ 解 謎 大 師 ？
+any.any.t.7,7,"Oh, giving up so soon? I thought you would stick it out till the end.",あ あ 、 こ ん な に 早 く 諦 め る の ？ 最 後 ま で 頑 張 る と 思 っ て い た の に 。,哦 ， 這 麼 快 就 放 棄 了 嗎 ？ 我 以 為 你 會 堅 持 到 底 。
+any.any.t.8,8,Do you know what's an infinite loop in code? It's like watching the same thing over and over in the same place for like a dozen times.,無 限 ル ー プ っ て プ ロ グ ラ ム で 何 か 知 っ て る ？ 同 じ 場 所 で 何 度 も 何 度 も 同 じ こ と を 見 て る 感 じ だ よ 。,你 知 道 什 麼 是 無 限 循 環 的 程 式 碼 嗎 ？ 就 像 你 同 個 地 方 看 了 十 幾 遍 差 不 多 意 思 。
+demo.door.t.1,9,Will you uncover the truth by opening that door?,そ の 扉 を 開 け れ ば 真 実 が 分 か る の ？,推 開 那 扇 門 就 會 知 道 真 相 了 嗎 ？
+demo.door.t.2,10,"Give it another try. Your intelligence is definitely higher than that door's, right?",も う 一 度 試 し て み て 。 き っ と あ な た の 知 能 は そ の 扉 よ り も 高 い は ず で し ょ う ？,再 試 試 ， 你 的 智 商 肯 定 比 這 扇 門 高 ， 有 吧 ？
+demo.door.t.3,11,Shouldn't you consider taking a break? You wouldn't want that door to open too soon.,休 憩 を 考 慮 し た 方 が い い ん じ ゃ な い ？ あ ん な 扉 が 早 す ぎ る タ イ ミ ン グ で 開 い て し ま う の は 避 け た い で す よ ね 。,是 不 是 該 考 慮 休 息 一 下 ， 你 不 會 希 望 那 扇 門 這 麼 早 開 啟 的 。
+demo.door.t.4,12,Are these colors corresponding to the solutions on each wall? Or numbers? Or am I mistaken?,こ れ ら の 色 は 各 壁 の 解 答 に 対 応 し て い ま す か ？ そ れ と も 数 字 で す か ？ そ れ と も 私 が 勘 違 い し て い ま す か ？,這 些 顏 色 是 不 是 對 應 每 面 牆 的 謎 底 ？ 還 是 數 字 ？ 還 是 我 搞 錯 了 ？
+demo.cylinder.t.1,13,"Let's not rush. Step by step, let's first figure out the relationship with the numbers.",急 が な い で 、 一 歩 ず つ 進 み ま し ょ う 。 ま ず は 数 字 と の 関 連 性 を 見 つ け ま し ょ う 。,別 急 ， 我 們 一 步 一 步 來 ， 先 找 出 和 數 字 的 關 聯 。
+demo.cylinder.t.2,14,Let's start from the cabinet. Switch perspectives; maybe we can see different facets.,キ ャ ビ ネ ッ ト か ら 始 め ま し ょ う 。 視 点 を 変 え て 、 異 な る 面 を 見 る こ と が で き る か も し れ ま せ ん 。,從 櫃 子 開 始 吧 ， 切 記 ， 換 個 角 度 ， 也 許 能 查 看 到 不 同 面 向 。
+demo.box.t.1,15,"Do you know what's an infinite loop in code? It's like going over the same spot a dozen times, almost like what you're doing.",無 限 ル ー プ っ て プ ロ グ ラ ム で 何 か 知 っ て る ？ 何 度 も 同 じ 場 所 を 何 度 も 見 る 感 じ 、 あ な た が や っ て い る こ と み た い な も の だ よ 。,你 知 道 什 麼 是 無 限 循 環 的 程 式 碼 嗎 ？ 就 像 你 同 個 地 方 看 了 十 幾 遍 差 不 多 意 思 。
+demo.cube.t.1,16,The magic cube requires you to cover every face. Oh! Watch the time.,マ ジ ッ ク キ ュ ー ブ は す べ て の 面 を カ バ ー す る 必 要 が あ り ま す 。 あ あ ！ 時 間 に 気 を つ け て く だ さ い 。,魔 術 方 塊 需 要 你 面 面 俱 到 ， 哦 ！ 注 意 時 間 。
+demo.cube.t.2,17,Sometimes the missing corners are deliberately left for a certain meaning.,時 々 、 欠 け て い る 角 は 特 定 の 意 味 の た め に 意 図 的 に 残 さ れ て い ま す 。,缺 角 的 地 方 ， 有 時 候 就 是 刻 意 為 了 某 種 意 義 所 留 下 的 。
+demo.clock.t.1,18,"Take a moment to think, facing the wall for twenty minutes might help you calm down.",壁 に 向 か っ て ２ ０ 分 間 考 え る と 、 少 し 落 ち 着 く か も し れ ま せ ん 。,面 壁 思 過 二 十 分 鐘 ， 你 可 能 會 冷 靜 一 點 。
+demo.paint.t.1,19,"Color, light, angle—what filter are you using to view those cold, hard numbers?",色 、 光 、 角 度 ― ― 冷 た い 数 字 を 見 る た め に ど ん な フ ィ ル タ ー を 使 っ て い ま す か ？,顏 色 、 光 影 、 角 度 ， 你 帶 著 什 麼 濾 鏡 在 看 那 些 冷 冰 冰 的 數 字 。
+demo.paint.t.2,20,"S, W, E, N stands for what? News? Sewn? Or simply North, South, East, West—could it be that simple?",S 、 W 、 E 、 N は 何 を 意 味 す る の で し ょ う ？ News （ ニ ュ ー ス ） ？ Sewn （ 縫 っ た ） ？ そ れ と も 単 に 南 、 西 、 東 、 北 ―― そ ん な に 単 純 な こ と で し ょ う か ？,S 、 W 、 E 、 N 是 什 麼 ？ News ？ Sewn ？ 新 聞 跟 縫 製 ？ 還 是 東 南 西 北 ， 這 麼 簡 單 嗎 ？
+demo.easter.t.1,21,I feel like I've seen this in some game before.,こ の パ タ ー ン 、 ど こ か の ゲ ー ム で 見 た こ と が あ る よ う な 気 が す る ん だ け ど 。,這 ... ... 怎 麼 好 像 有 在 某 款 遊 戲 看 過 ？
+book_room.darkblue.t.1,22,,,語 法 書 ？ 現 在 是 學 習 寫 腳 本 的 好 機 會 吧 ， 至 少 沒 人 打 擾 。
+book_room.orange.t.1,23,,,如 果 這 世 界 都 是 用 Flutter 框 架 做 出 來 的 ， 這 本 就 是 聖 經 。
+book_room.cyan.t.1,24,,,真 希 望 能 用 它 來 加 速 破 關 速 度 。
+book_room.pink.t.1,25,,,這 種 東 西 出 現 在 這 裡 真 是 嘲 諷 。
+book_room.pink.t.2,26,,,我 能 Go 　 home 嗎 ？
+book_room.bookshief_drawer_nobook.t.1,27,,,別 想 太 多 ， 那 就 是 抽 屜 。
+book_room.bookshief_drawer_nobook.t.2,28,,,這 些 小 空 間 裝 的 下 什 麼 ？
+book_room.bookshief_drawer_nobook.t.3,29,,,空 的 ！ 我 絕 對 沒 有 在 暗 示 什 麼 。
+book_room.bookshief_drawer_hadbook.t.1,30,,,生 平 最 討 厭 的 事 情 ， 就 是 東 西 不 放 好 。
+book_room.bookshief_drawer_hadbook.t.2,31,,,亂 七 八 糟 ！ 真 想 照 某 種 規 則 排 放 整 齊 。
+book_room.light_switch.t.1,32,,,這 是 什 麼 的 開 關 ？ 燈 還 是 門 ？
+book_room.handle_nolight.t.1,33,,,這 時 候 把 門 打 開 ， 是 正 確 的 嗎 ？
+book_room.handle_nolight.t.2,34,,,開 了 燈 ， 門 就 上 鎖 了 。
+book_room.handle_nolight.t.3,35,,,這 麼 黑 ？ 你 能 看 見 什 麼 ？
+book_room.handle_nolight.t.4,36,,,外 面 有 東 西 。
+book_room.handle_nolight.t.5,37,,,什 麼 都 看 不 到 ， 我 該 到 有 光 的 地 方 想 想 辦 法 。
+book_room.handle_hadlight.t.1,38,,,燭 光 晚 餐 ？ 1 0 歲 生 日 派 對 ？ 
+book_room.book_putin.t.1,39,,,別 傻 了 ， 連 書 名 都 看 不 懂 ， 還 想 翻 頁 ？
+book_room.book_putin.t.2,40,,,書 櫃 後 怎 麼 會 有 聲 音 ⋯ ⋯
+book_room.binarypaper.t.1,41,,,哪 個 人 設 計 的 二 進 制 表 ， 把 人 當 成 智 障 ？
+book_room.flashlight.t.1,42,,,光 ， 是 黑 暗 中 唯 一 能 依 賴 的 好 東 西 。

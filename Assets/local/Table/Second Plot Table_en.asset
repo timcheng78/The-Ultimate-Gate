@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Second Plot Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8aaa4fdefd11ed041bc81cb4b4b3d1e0, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 77696958464
+    m_Localized: This theme really caught me off guard.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203798708224
+    m_Localized: To be honest, there are hundreds of themes more suitable than a
+      family-style escape room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234958192640
+    m_Localized: At the very least, as the final episode of the show.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 253253746688
+    m_Localized: I thought it would be a complex TV studio set.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 312460541952
+    m_Localized: Or... is this... just an elaborate facade?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 351660507136
+    m_Localized: What am I saying...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28635692105564160
+    m_Localized: Aren't all escape rooms staged?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29349906386354176
+    m_Localized: Sir, please put on the eye mask. Watch your step; I will guide you
+      to the next area.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31166702647083008
+    m_Localized: "Now entering the stage is our escape master!\nWe have prepared
+      three door locks for you!\nEach lock corresponds to one of the three keys!\nOvercome
+      the obstacles and win the prize\u2500\u2500"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

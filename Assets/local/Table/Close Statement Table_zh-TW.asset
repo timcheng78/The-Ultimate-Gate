@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Close Statement Table_zh-TW
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: zh-TW
+  m_SharedData: {fileID: 11400000, guid: 4df06a10868d6a34eb9178d048d69606, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7165542400
+    m_Localized: "\u96E2 \u958B \u904A \u6232 \uFF1F \n\u9700 \u8981 \u6211 \u63D0
+      \u793A \u54EA \u88E1 \u53EF \u4EE5 \u95DC \u9589 \u904A \u6232 \u55CE \uFF1F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71858487296
+    m_Localized: "\u4F60 \u78BA \u5B9A \uFF1F \u653E \u5FC3 \uFF0C \u653E \u68C4
+      \u4E0D \u6703 \u7559 \u4E0B \u7D00 \u9304 \u3002 \n\u4E0D \u8981 \u89BA \u5F97
+      \u81EA \u5DF1 \u721B \u5C31 \u597D \uFF0C \u771F \u7684 \u3002"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74333126656
+    m_Localized: "\u5509 \u5466 \uFF0C \u618B \u4E0D \u4F4F \u4E86 \u55CE \uFF1F
+      \n\u6216 \u8A31 \u9019 \u6A23 \u5C0D \u4F60 \u6BD4 \u8F03 \u597D \u3002"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

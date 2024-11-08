@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Hint Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5c757aeac64984745bd205fef5532f83, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 133053382656
+    m_Localized: The color of the buttons on the electronic lock and the color of
+      the wall.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346761560064
+    m_Localized: The password on the electronic lock consists of a group of four
+      digits.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400356376576
+    m_Localized: Analyze the shape and size of the cylindrical body and the lines
+      on it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408187142144
+    m_Localized: Lines are the most basic symbols, forming part of the text.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418136031232
+    m_Localized: There are hints outside the framework of the puzzle. Don't understand?
+      Check the side of the cabinet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2402310258688
+    m_Localized: The colors on the clock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3143611547648
+    m_Localized: The colors on the Puzzle Cube.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3631266496512
+    m_Localized: How many common points are there between the clock and the Puzzle
+      Cube?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3650132475904
+    m_Localized: The most important position on a clock is the 12 o'clock direction.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3666905497600
+    m_Localized: The missing corner on the Purple face represents the hour hand's
+      position, while the Yellow one represents the minute hand.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4991634472960
+    m_Localized: The only constant truth in the universe is that everything changes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5015076438016
+    m_Localized: The author's name is just like the directions.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5016603164672
+    m_Localized: When looking from south to north, does the connected red area resemble
+      a certain number?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5017081315328
+    m_Localized: Looking from west to east, north to south, and east to west.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25064645938741248
+    m_Localized: Language itself is a kind of order.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065153357250560
+    m_Localized: What should be in front will never appear behind.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065183229083648
+    m_Localized: I told you to read more books; at least take a look at the title.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065379052748800
+    m_Localized: How can you turn on the light without electricity?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065432752422912
+    m_Localized: Should I sit down and enjoy a candlelit dinner?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065448476868608
+    m_Localized: What are the glowing red numbers trying to tell me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065476083777536
+    m_Localized: Flipping the knife and spoon, what do you see besides a silly face?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065500964388864
+    m_Localized: The smooth, glossy surface of the object resembles a mirror, reflecting
+      light, shadows, and numbers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065536431423488
+    m_Localized: The phases of the moon, becoming a method of measurement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065564201910272
+    m_Localized: Is there a difference between lighting up a full circle and a semicircle?
+      Will you use the microwave? Try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065587450937344
+    m_Localized: Every journey is a unique timeline.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065857085964288
+    m_Localized: Point, line, surface; the surface is the entire world map.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065895505788928
+    m_Localized: Are there obstacles even in the connections? Next time, I'll invite
+      a primary school teacher to tell you the answer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25065992616509440
+    m_Localized: Counting stars under the night sky is a very romantic thing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066030415577088
+    m_Localized: Can't you count other things? Oh my! Or do you think I will just
+      tell you the answer directly?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066071075160064
+    m_Localized: The signs behind the cabinet, do you think they're just for decoration?
+      Open the corresponding box.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066114515566592
+    m_Localized: The white patterns, do they resemble a ladder?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066158476066816
+    m_Localized: "According to the rules of the ladder game, when encountering a
+      junction, you must turn. \nNo matter how complicated it is, each riddle will
+      have only one solution."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066207713001472
+    m_Localized: First, turn off the lights. If it's too bright, I can't see your
+      stupid face...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066239191252992
+    m_Localized: 'The length of a shadow is very important, just like a person''s
+      IQ. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066265133023232
+    m_Localized: But don't worry, next time you ask me, I will really tell you the
+      answer directly.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066288205889536
+    m_Localized: Look for the sun, the moon, and the stars.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066354664636416
+    m_Localized: If you can't find them, use light to shine until you can see.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066379239063552
+    m_Localized: "This kind of fluorescent paper absorbs light, so don\u2019t worry."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066417461755904
+    m_Localized: The rotating Puzzle Cube is not only good-looking, but it also needs
+      to be turned to match the same colors.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25066458620461056
+    m_Localized: Light blue, dark blue, light green, and orange correspond to four
+      different numbers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26493461668134912
+    m_Localized: The position of the large triangle needs to be set first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34141759233163264
+    m_Localized: Just to confirm, you want to play an escape room game, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34142594021294080
+    m_Localized: "There should only be three meaningful objects, arranged from small
+      to large, \nwhich form three words. What are they?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34142971831615488
+    m_Localized: This puzzle once appeared in an IQ test question bank.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34386130327142400
+    m_Localized: Adjust the button until the shadow becomes O P E N.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

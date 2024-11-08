@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Talk Statement Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Talk Statement Table
+  m_TableCollectionNameGuidString: bd660739dae94034db1abeaa52d10314
+  m_Entries:
+  - m_Id: 57942310748160
+    m_Key: any.rand_plot_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58898117132288
+    m_Key: any.rand_plot_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58900180729856
+    m_Key: any.rand_plot_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58901636153344
+    m_Key: any.rand_plot_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58903586504704
+    m_Key: any.rand_plot_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58904987402240
+    m_Key: any.rand_plot_6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58934410444800
+    m_Key: any.rand_plot_7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58935941365760
+    m_Key: any.rand_plot_8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59030673915904
+    m_Key: any.rand_plot_10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59039658115072
+    m_Key: any.rand_plot_11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5068789038809088
+    m_Key: any.rand_plot_12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5068878486536192
+    m_Key: any.rand_plot_13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5068943095595008
+    m_Key: any.rand_plot_14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5068994643591168
+    m_Key: any.rand_plot_15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5069018970554368
+    m_Key: any.rand_plot_16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5069036473384960
+    m_Key: any.rand_plot_17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38374051115794432
+    m_Key: kitchen_nolight.rand_plot_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38375586793095168
+    m_Key: kitchen_nolight.rand_plot_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38375588424679424
+    m_Key: kitchen_nolight.rand_plot_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38375589682970624
+    m_Key: kitchen_nolight.rand_plot_4
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 796538287442624523
+  references:
+    version: 2
+    RefIds:
+    - rid: 796538287442624523
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1718593109813

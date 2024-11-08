@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: "Localization-String-Tables-\u7E41\u9AD4\u4E2D\u6587"
+  m_EditorClassIdentifier: 
+  m_GroupName: "Localization-String-Tables-\u7E41\u9AD4\u4E2D\u6587"
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d693a404931d85442b8de653432b00ec
+  m_SerializeEntries:
+  - m_GUID: 0d1254858324569428fd726a756f9854
+    m_Address: Second Plot Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e7075df4824b274092a6b8146c0efda
+    m_Address: Interact Statement Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8de02b6186041d6429725d335e3bc7fc
+    m_Address: Resolve Puzzle Statement Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f3c7bb764047494f9446cd820de8271
+    m_Address: Hint Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df484c791049a1c44be9eb9dff0d7dc3
+    m_Address: Close Statement Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 038b446892f57ba4080e0dd05737817b
+    m_Address: Starting Plot Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 896c14acbeba41e40849c945febd70a1
+    m_Address: Storm Statement Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b622957229044f4c9d5d72d3ecf6cd8
+    m_Address: String Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 908776890fade0741a849cdd88bf5493
+    m_Address: Talk Statement Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9595e07050060a64f96aa8965ce8d231
+    m_Address: Ending Plot Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f2324180c710d447ac55affe1fa3f07
+    m_Address: Truth End Plot Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 149a5bd3211fc474499c8f449ab7cd3d
+    m_Address: Crazy End Plot Table_zh-TW
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-zh-TW
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 21ea126313f92a34196632fdfdca2a85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 61f4829b0d458394ba296f1863a6902f, type: 2}
+    - {fileID: 11400000, guid: 69303d07f2c49d14f9eb26f9b889e800, type: 2}

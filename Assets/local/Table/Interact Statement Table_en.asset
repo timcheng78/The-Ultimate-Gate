@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Interact Statement Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 66008a2975332964f8a32b1dcb75513a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: "Why do these things look so messy? \nIs this second-rate show set
+      up incorrectly?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: "Alright, calm down, you can do this. \nYou've solved harder puzzles
+      before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: "You know that in some parallel universe. \nYou've already solved
+      this puzzle, right?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: Freaking out? These puzzles are just mocking you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: "About to freak out? \nThat's right, just like you did before."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: What did you write in the self-introduction on your application
+      form? Puzzle Master?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: "Oh, giving up so soon? \nI thought you would stick it out till
+      the end."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: "Do you know what's an infinite loop in code? \nIt's like watching
+      the same thing over and over in the same place for like a dozen times."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Will you uncover the truth by opening that door?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "Give it another try. \nYour intelligence is definitely higher than
+      that door's. \nRight?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: "Shouldn't you consider taking a break? \nYou wouldn't want that
+      door to open too soon."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: "Are these colors corresponding to the solutions on each wall? \nOr
+      numbers? Or am I mistaken?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: "Let's not rush. Step by step. \nLet's first figure out the relationship
+      with the numbers."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: "Let's start from the cabinet. Switch perspectives. \nMaybe we can
+      see different facets."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38743562272735232
+    m_Localized: Have you ever seriously observed what time actually looks like?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "The Puzzle Cube requires you to cover every face. \nOh! Watch the
+      time."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: Sometimes the missing corners are deliberately left for a certain
+      meaning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: "Take a moment to think. \nFacing the wall for twenty minutes might
+      help you calm down."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: "Color, light, angle. \nWhat filter are you using to view those
+      cold, hard numbers?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: "S, W, E, N stands for what? News? Sewn? \nOr simply North, South,
+      East, West.\nCould it be that simple?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: I feel like I've seen this in some game before.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: A grammar book? Now is a good opportunity to learn to write a script,
+      at least no one is bothering me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: If this world is created using the Flutter framework, then this
+      is the Bible.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: I really hope I can use it to speed up the progress of solving the
+      puzzle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: It's truly ironic to see this kind of thing here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: Can I Go home?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: Don't think too much; it's just a drawer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: What can fit in these small spaces?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: It's empty! I'm definitely not hinting at anything.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: The thing I dislike the most in life is when things are not put
+      back in their place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: What a mess! I really want to arrange things in an orderly manner
+      according to certain rules.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: What is this switch for? The light or the door?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Don't be silly. You can't even read the title, and you want to turn
+      the pages?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: How can there be a sound behind the bookshelf...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: Binary? Which book did that fall from?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: Light is the only good thing we can rely on in the darkness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30129095217610752
+    m_Localized: It shines, but there is no glow; how interesting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30129332745240576
+    m_Localized: What a beautiful light.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26887186655313920
+    m_Localized: How is there a red glow on the brand-new knife, and spoon?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43201688686395392
+    m_Localized: These are all shiny metal cutlery with excellent reflection!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26887927717527552
+    m_Localized: Can this control panel turn on the main power here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26888036723294208
+    m_Localized: "Three numbers, a crossed knife and spoon\u2014\nwhere do I find
+      the numbers?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30129751814930432
+    m_Localized: The meat is becoming more and more rotten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30129997215268864
+    m_Localized: The smell of the rotten meat is becoming more and more obvious.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30131069665247232
+    m_Localized: "Glow-in-the-dark stickers, such a clich\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30136981817753600
+    m_Localized: "Stars, how long have they been here, \nnever counting the stars
+      to fall asleep."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30137042052153344
+    m_Localized: "If one could immerse oneself in the universe, \ncould they touch
+      these eternal truths?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30140115231277056
+    m_Localized: Ha! What are you expecting? Things hidden in the darkness will not
+      change because of the light.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30140830813093888
+    m_Localized: If I don't take the key, would that be the true ending?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30140955039989760
+    m_Localized: "World maps and flight records, \nwhat connection do they have...
+      \nDone, now starting to spout meaningless nonsense, a sign of mental distraction."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30141027341402112
+    m_Localized: Focus! There must be something between the flight paths and the
+      points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32043136647266304
+    m_Localized: A notebook?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32044589109575680
+    m_Localized: What can you see on the wall from here?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32044996808507392
+    m_Localized: Every key corresponds to a lock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32045208184651776
+    m_Localized: Spending all this time is just to mock my observation skills, right?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32045914996178944
+    m_Localized: Light, it's light again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32045942049439744
+    m_Localized: Where there's a puzzle, there will be a solution. Where there's
+      light, there will be shadow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32683000984076288
+    m_Localized: Is it correct to open the door at this moment?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32693288391245824
+    m_Localized: Once the light is turned on, the door is locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38912319586664448
+    m_Localized: Don't open that door!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769250527084544
+    m_Localized: The circuit for switching is abnormal; this is also part of the
+      riddle or the result of a tragic waste of resources.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769441468579840
+    m_Localized: Why is the bedroom flashing with a variety of colors?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37767471206858752
+    m_Localized: A red light?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37770670546452480
+    m_Localized: "Chess pieces? Three in a row? Three English letters? \nAnd that
+      damn chessboard\u2014what's going on? I must solve this; I have to solve it!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37770356137230336
+    m_Localized: Which door does this key lead to...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37767642913275904
+    m_Localized: It's pitch black; where's the light?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769917564026880
+    m_Localized: "It seems like there\u2019s something shining in the bathtub filled
+      with water."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37768541450633216
+    m_Localized: This kind of unrelated arrangement really feels vulgar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37770593748746240
+    m_Localized: The castle is surrounded! Huh, have the chess pieces changed? Who
+      moved them?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769495319248896
+    m_Localized: The glass door is locked. Why are these three patterns here again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769951965708288
+    m_Localized: Where is this key? It should be nearby.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37768771487236096
+    m_Localized: The living room light is off, but it seems like there's a flickering
+      light sound.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37769722340147200
+    m_Localized: The most important key to the main door is, of course, kept in the
+      safe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38471668361428992
+    m_Localized: So dark? I need to find the light switch first.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43943195798241280
+    m_Localized: Are you sure you want to leave? Once you click again after the thought
+      disappears, it will be over!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

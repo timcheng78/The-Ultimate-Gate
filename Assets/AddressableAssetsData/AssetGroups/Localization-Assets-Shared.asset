@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3837ecc8d65760647a9235b6968989ab
+  m_SerializeEntries:
+  - m_GUID: 91268db76108c014cbc7ceae21002a36
+    m_Address: Assets/local/Table/String Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd660739dae94034db1abeaa52d10314
+    m_Address: Assets/local/Table/Talk Statement Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66008a2975332964f8a32b1dcb75513a
+    m_Address: Assets/local/Table/Interact Statement Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e46740dd559963f4a848ccce72126130
+    m_Address: Assets/local/Table/Starting Plot Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4df06a10868d6a34eb9178d048d69606
+    m_Address: Assets/local/Table/Close Statement Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e5a833de904b894eabe316e9884fb4e
+    m_Address: Assets/local/Table/Resolve Puzzle Statement Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff11fa684d1ebc04186f4ed073b4e972
+    m_Address: Assets/local/Table/Storm Statement Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8aaa4fdefd11ed041bc81cb4b4b3d1e0
+    m_Address: Assets/local/Table/Second Plot Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c757aeac64984745bd205fef5532f83
+    m_Address: Assets/local/Table/Hint Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b77c57fc76d05ba4cb4ef927abd6c825
+    m_Address: Assets/local/Table/Ending Plot Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba33a5c2d48c3b8449e70a6f5c8a4a8a
+    m_Address: Assets/local/Table/Truth End Plot Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92b68f8f4b6604741b7ddb39e855fbc5
+    m_Address: Assets/local/Table/Crazy End Plot Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 21ea126313f92a34196632fdfdca2a85, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2bb1aa3d13f415a48854de82a4ad81d8, type: 2}
+    - {fileID: 11400000, guid: c998af9af3632bf429eb242fab49c473, type: 2}

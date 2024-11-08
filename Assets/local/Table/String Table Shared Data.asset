@@ -1,0 +1,392 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: String Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: String Table
+  m_TableCollectionNameGuidString: 91268db76108c014cbc7ceae21002a36
+  m_Entries:
+  - m_Id: 1714624757760
+    m_Key: MoveText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284712968486912
+    m_Key: InteractText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285037112688640
+    m_Key: CancelText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293655430135808
+    m_Key: NoteOpenText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294101326594048
+    m_Key: FlashlightText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295659359535104
+    m_Key: ScaleText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296600469078016
+    m_Key: RotateText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297217245675520
+    m_Key: DemoEndText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304861985472512
+    m_Key: CrouchText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1064221783195648
+    m_Key: EndGameText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1108250713489408
+    m_Key: PreviousText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1108285668818944
+    m_Key: NextText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171427822206976
+    m_Key: StartGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171429525094400
+    m_Key: ContinueGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171431479640064
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171433203499008
+    m_Key: QuitGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171885563379712
+    m_Key: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171929536462848
+    m_Key: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171958946922496
+    m_Key: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172022922641408
+    m_Key: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172042304520192
+    m_Key: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172067734585344
+    m_Key: PostProcessing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172105034530816
+    m_Key: MasterVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172144075112448
+    m_Key: SoundFXVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172164782391296
+    m_Key: MusicVolume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172180783661056
+    m_Key: HardMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172359645560832
+    m_Key: MouseSensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473528783765504
+    m_Key: Toggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6498279585579008
+    m_Key: ReturnMainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6517385760178176
+    m_Key: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6811590080430080
+    m_Key: ObsidianDagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812068981866496
+    m_Key: SevenBlackCandles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812292051730432
+    m_Key: SilverPentagram
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812474923384832
+    m_Key: CrowFeather
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812687356493824
+    m_Key: SoilOfTheUnderworld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812755929169920
+    m_Key: MidnightBell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6814212246044672
+    m_Key: RulesOfEscapeRoomMastery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6816741021286400
+    m_Key: RulesOfEscapeRoomMastery2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8271061575106560
+    m_Key: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13778751520866304
+    m_Key: Arrival
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18139262341447680
+    m_Key: HintText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18161940582465536
+    m_Key: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162312684339200
+    m_Key: NormalMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162569816145920
+    m_Key: HardMod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162732651610112
+    m_Key: HardModeHint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25357113850691584
+    m_Key: HintPageMode1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25359854392147968
+    m_Key: HintPageMode2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40912260966219776
+    m_Key: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42491975858487296
+    m_Key: MainGame/End Text Canvas/Continue/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144019946602496
+    m_Key: MainGame/Page1/Page5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144383987023872
+    m_Key: MainGame/Page2/Page5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144795355971584
+    m_Key: MainGame/Page3/Page5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43145257102704640
+    m_Key: MainGame/Page4/Page6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301435090337792
+    m_Key: MainGame/Sentences-Storm/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301631723503616
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301931351998464
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (2)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302435037577216
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (3)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302542772469760
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (4)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302665707520000
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (5)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302736595451904
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (6)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302877817667584
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (7)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303016464580608
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (8)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303119241805824
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (9)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303206885982208
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (10)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303270123503616
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (11)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303395814211584
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (12)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303517151232000
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (13)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303623539752960
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (14)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303720214265856
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (15)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303915941462016
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (16)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304039065255936
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (18)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304135760740352
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (19)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304234645651456
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (20)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304379303002112
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (21)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304617489137664
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (22)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304719737880576
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (23)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304889963708416
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (24)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305031743766528
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (25)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305118561665024
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (26)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305261281247232
+    m_Key: MainGame/Sentences-Storm/Text (TMP) (27)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44941905202085888
+    m_Key: JumpPage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50696250539474944
+    m_Key: StartMenu/StartMenu/Canvas/OtherWay/OtherWay Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50696648616673280
+    m_Key: StartMenu/StartMenu/Canvas/OtherWay/OtherWay Text (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51060191346130944
+    m_Key: MainGame/GameObject/Pause Menu/Control/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51062410028089344
+    m_Key: MainGame/GameObject/Pause Menu/Control Block/Back/Text (TMP)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509039742517248
+    m_Key: Very Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509064744763392
+    m_Key: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509073775099904
+    m_Key: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509089877032960
+    m_Key: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509102199898112
+    m_Key: Very High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509140749746176
+    m_Key: Ultra
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 796538267751415836
+  references:
+    version: 2
+    RefIds:
+    - rid: 796538267751415836
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1718518358621

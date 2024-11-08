@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: String Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 91268db76108c014cbc7ceae21002a36, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 284712968486912
+    m_Localized: Interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1714624757760
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285037112688640
+    m_Localized: 'Cancel
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294101326594048
+    m_Localized: Turn on the flashlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293655430135808
+    m_Localized: Open The Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296600469078016
+    m_Localized: Rotate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295659359535104
+    m_Localized: Scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297217245675520
+    m_Localized: 'The trial version ends here.
+
+      Thank you for playing.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 304861985472512
+    m_Localized: 'Crouch
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1064221783195648
+    m_Localized: "Congratulations! \nYou have completed the game!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1108285668818944
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1108250713489408
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171427822206976
+    m_Localized: Start Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171429525094400
+    m_Localized: Continue Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171431479640064
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171433203499008
+    m_Localized: Quit Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171885563379712
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171929536462848
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6171958946922496
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172022922641408
+    m_Localized: Graphics Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172042304520192
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172067734585344
+    m_Localized: Post Processing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172105034530816
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172144075112448
+    m_Localized: SFX Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172164782391296
+    m_Localized: Music Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172180783661056
+    m_Localized: Hard Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6172359645560832
+    m_Localized: Mouse Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6473528783765504
+    m_Localized: Toggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6498279585579008
+    m_Localized: Save and Return to Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6517385760178176
+    m_Localized: Steam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6811590080430080
+    m_Localized: Obsidian Dagger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812068981866496
+    m_Localized: <s color=#ff0000>Seven Black Candles</s>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812292051730432
+    m_Localized: Silver Pentagram
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812474923384832
+    m_Localized: <s color=#ff0000>Crow Feather</s>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812687356493824
+    m_Localized: Soil Of The Underworld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6812755929169920
+    m_Localized: <s color=#ff0000>Midnight Bell</s>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6814212246044672
+    m_Localized: "Escape Room Strategy Guide: Enjoy a Fun Time Solving Puzzles Together!\n\nLook:
+      What does the room look like? How many doors are there? Are the doors locked?\nListen:
+      Click, click\u2026 How much time is left?       What did the host say? Where
+      are the clues to solve the puzzle?\nTouch: How tall is that door? How does
+      it feel \nTouch is magic. Let your senses break through  \nThe truth is always
+      right before your eyes, yet   with only our vision, we are constantly groping
+      in the unchanging darkness of time.\nPause: Slow down, even slower.\nDo not
+      chase the puzzle. The mysteries of the    world are not answered by competition.\nIt
+      asks alone, it answers alone; it is the riddle,    it is the solution; it is
+      the gate of truth, it is the key of truth.\nAh\u2026 that key has always been
+      on the door. Can you not see it? Can you glimpse it too? The light of truth
+      behind layers of puzzles?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6816741021286400
+    m_Localized: "Solving Puzzles Together!\n\ndoors are there? Are the doors locked?\nWhat
+      did the host say? Where are the clues to \n\nto the touch?\nthe barriers and
+      feel the puzzle itself.\nwith only our vision, we are constantly groping\n\n\nworld
+      are not answered by competition.\nit is the solution; it is the gate of truth,
+      it is\n\nyou not see it? Can you glimpse it too? The\n\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8271061575106560
+    m_Localized: Brightness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13778751520866304
+    m_Localized: arrival
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18139262341447680
+    m_Localized: "Sway left and right to shake off your thoughts. \nIf you have any
+      questions, try interacting with the camera. Maybe, just maybe, you might find
+      a clue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162312684339200
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18161940582465536
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162569816145920
+    m_Localized: Malicious Echo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18162732651610112
+    m_Localized: Malicious Echo is an option for players who want to challenge themselves
+      by solving puzzles independently. The inner echo will no longer provide any
+      helpful hints for solving puzzles, and some storyline experiences will be lost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25357113850691584
+    m_Localized: "[W][A][S][D] Move\n[E] Interact [Q] Cancel\n[T] Open The Note\n[N]
+      Take a photo [Tab] Draw\n[Ctrl] Crouch [Esc] Main Menu\n[Mouse] Rotate\u3001Scale\nSway
+      left and right to shake off your thoughts.\nIf you have any questions, \ntry
+      interacting with the camera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25359854392147968
+    m_Localized: "[W][A][S][D] Move\n[E] Interact [Q] Cancel\n[T] Open The Note\n[N]
+      Take a photo [Tab] Draw\n[Ctrl] Crouch [Esc] Main Menu\n[Mouse] Rotate\u3001Scale\n[F]
+      Turn on the flashlight\nSway left and right to shake off your thoughts.\nIf
+      you have any questions, \ntry interacting with the camera."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40912260966219776
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42491975858487296
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144019946602496
+    m_Localized: '04/30 13:10
+
+      Ah, the indescribable journey begins in the
+      land of China, at the appointed hour. I board the iron bird that has flown
+      from Jakarta (VECC), departing from Taipei (RCSS), filled with an uncontrollable
+      shiver and excitement. The destination is the distant and mysterious Sydney
+      (YSSY), with a brief stopover in Tokyo (RJTT). It all feels like the arrangement
+      of fate, guided by an unknown force.
+
+      04/30 15:45
+
+      As we traversed
+      the endless sea of clouds, the iron bird smoothly landed at our stopover, where
+      the air seemed charged with hidden movements. After disembarking, my disoriented
+      steps led me through the foreign transfer corridor. Shadows of people intertwined,
+      a mix of noise and tranquility, as if a ritual of prayers was already in progress.
+      Each step I took felt like treading on the brink of an impending abyss, my
+      rising energy brimming with primal force.
+
+      04/30 17:10
+
+      Once again,
+      I boarded the iron bird, and the indescribable feeling within me grew stronger.
+      It felt as if an invisible presence was watching over me, guiding me to break
+      free from the shackles of restraint. The cabin lights dimmed, and the faces
+      of the passengers blurred like illusions. I understood deeply that this journey
+      would be anything but ordinary; it would lead me closer to some truth that
+      transcends reason, some meaning that humanity cannot fully comprehend. I pressed
+      the button.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144383987023872
+    m_Localized: "04/29\r\nAt 16:37, as I departed from Vancouver Airport, I focused
+      intently on the four letters CYVR. They continuously broke apart and reassembled,
+      forming various words, but no matter how hard I concentrated, CYVR remained
+      CYVR.\r\nThe holy messenger said that light would soon descend upon Sydney.
+      I must complete my mission during my layovers in London and S\xE3o Paulo.\r\n04/30\r\nI
+      noticed a beautiful boy with blue eyes; he winked and smiled at me. At 01:15,
+      when we landed in EGLL, fog enveloped the land of London, as if some unknown
+      force was aiding me. I walked through that desolate airport, the sights before
+      me resembling a fast-forwarded film. Until I carefully tucked away that most
+      innocent part of myself and brought it onto the plane.\r\n04/30\r\nThe fervent
+      emotions in my heart grew stronger. I knew that every moment of this journey
+      was filled with the arrangement of fate. When the plane landed at 05:45 in
+      SBGR, every star in S\xE3o Paulo's night sky was winking at me. I gazed through
+      blue irises and locked eyes with those legendary deities, praying for guidance
+      in my every step. A girl with long hair approached me to ask for directions.\r\n05/01\r\nFinally,
+      I have arrived in YSSY, in Sydney, a land full of unknowns. Time and space
+      seemed to intertwine at this moment, making it impossible to distinguish reality
+      from dreams. This journey is not merely a physical movement but a tempering
+      of the soul. I am keenly aware that this is just the prologue; the true revelation
+      is about to unfold.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43144795355971584
+    m_Localized: "Reporter Huang Nuan Nuan, Taipei.\r\nOn April 28th at 14:48, a
+      woman at Dubai Airport in the United Arab Emirates (OMDB) purchased a one-way
+      ticket to S\xE3o Paulo (SBGR), with brief stopovers in Los Angeles (KLAX) and
+      Oslo (ENGM). The aviation security centers in both locations received reports
+      from the woman stating that she was being followed by an unknown individual.\r\nPassengers
+      on the flight claimed to have seen the woman standing motionless at the boarding
+      bridge, her eyes hollow, as if her soul had been stripped away by an invisible
+      force. The woman was heard continuously mumbling strange sounds, emanating
+      an ominous aura. Airport security personnel intervened immediately, but the
+      woman vanished in the chaos, seemingly evaporating into thin air.\r\nThe disappearance
+      case is currently under investigation by relevant authorities, and further
+      updates are awaited.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43145257102704640
+    m_Localized: "At that time, it was May 2nd, 09:18, and I was deeply impressed
+      by that strange incident.\r\nAt dawn in Iceland, a plane took off from Reykjav\xEDk
+      (BIRK) airport with me, anxious and unsettled, heading toward distant S\xE3o
+      Paulo (SBGR). My flight had layovers in the Los Angeles (KLAX) and Cairo (HECA),
+      but this journey felt as though it were destined to be shrouded in darkness.\r\nAt
+      14:45, the plane landed in Los Angeles, and the airport was immediately filled
+      with eerie, ominous signs. Reports indicated that local security personnel
+      discovered an ancient scroll filled with indecipherable runes and strange patterns
+      while checking passenger luggage. Soon after, several security staff collapsed,
+      mumbling to themselves in what seemed to be an unknown language. I later heard
+      that those individuals had been taken to the hospital but never regained consciousness;
+      doctors were helpless, staring in horror at their contorted faces.\r\nSorry
+      for digressing; let me continue...\r\nThe flight was not delayed and arrived
+      on time at 22:30 in Cairo. As night fell, the air around the airport seemed
+      to crystallize into some invisible barrier. I overheard local staff reporting
+      on the radio that the lights in the airport flickered erratically, as if under
+      the control of some mysterious force. Witnesses claimed to have seen a man
+      in ancient robes appear in the airport, his eyes shimmering with an unusual
+      light, his movements ghostly as he vanished into the shadows. Passengers felt
+      uneasy, unable to explain the phenomena.\r\nFinally, at 01:19 on May 3rd, the
+      plane arrived in S\xE3o Paulo. I thought this strange journey had come to an
+      end. But while processing immigration and waiting for my luggage, all passengers
+      from that flight were gathered for special reasons. I inquired with a chatty
+      customs officer, who said that several passengers had mysteriously disappeared
+      upon arrival, leaving behind only a few pieces of luggage and chaos.\r\nWhat
+      followed became a sensational topic online. Police investigations revealed
+      that these missing individuals had exhibited unusual behavior during the flight.
+      As the investigation deepened, more and more chilling details emerged; while
+      the backgrounds of the missing varied, their destination was strikingly uniform\u2014
+      the Amazon jungle, yes, indeed, the mysterious area where a strange pink meteor
+      had recently fallen.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301435090337792
+    m_Localized: Where's the door? I want to leave!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301631723503616
+    m_Localized: So bright! Such a strong light.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44301931351998464
+    m_Localized: Language itself is a kind of order.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302435037577216
+    m_Localized: Every puzzle can only have one solution.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302542772469760
+    m_Localized: Why is the bedroom glowing with all kinds of colors?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302665707520000
+    m_Localized: Puzzle, puzzle, puzzle, puzzle, puzzle...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302736595451904
+    m_Localized: What is this a switch for? The light or the door?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44302877817667584
+    m_Localized: Is it the right choice to open the door now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303016464580608
+    m_Localized: When the light was turned on, the door locked.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303119241805824
+    m_Localized: So dark? What can you see?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303206885982208
+    m_Localized: There's something outside.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303270123503616
+    m_Localized: I can't see anything. I should go to a place with light and think
+      of a plan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303395814211584
+    m_Localized: What is this smell?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303517151232000
+    m_Localized: Why is there a sound behind the bookshelf...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303623539752960
+    m_Localized: Light is the only good thing to rely on in the darkness.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303720214265856
+    m_Localized: It's shining, but there's no glow. How interesting.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44303915941462016
+    m_Localized: What a beautiful light.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304039065255936
+    m_Localized: The meat is rotting more and more.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304135760740352
+    m_Localized: The sour stench of the meat is getting stronger.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304234645651456
+    m_Localized: If I could be in the universe, could I touch these eternal truths?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304379303002112
+    m_Localized: 'Hah! What are you expecting? Things hidden in the darkness won''t
+      change just because you '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304617489137664
+    m_Localized: Have you really ever stared seriously at what's in the sky?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304719737880576
+    m_Localized: Can answers come so easily when facing the vastness of the starry
+      sky?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44304889963708416
+    m_Localized: If I don't take the key, would that be the real ending?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305031743766528
+    m_Localized: Light, again light.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305118561665024
+    m_Localized: Where there's a puzzle, there's a solution. Where there's light,
+      there's shadow.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44305261281247232
+    m_Localized: Every key corresponds to a lock.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44941905202085888
+    m_Localized: Jump to a page
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50696250539474944
+    m_Localized: Alternative paths
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50696648616673280
+    m_Localized: Back at the last door, do you have other choices?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51060191346130944
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51062410028089344
+    m_Localized: Return to Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509039742517248
+    m_Localized: Very Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509064744763392
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509073775099904
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509089877032960
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509102199898112
+    m_Localized: Very High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52509140749746176
+    m_Localized: Ultra
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
