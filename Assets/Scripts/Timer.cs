@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-[ExecuteInEditMode]
 public class Timer : MonoBehaviour, IDataPersistence
 {
     private float elapsedTime = 0.0f; // ²Ö¿n®É¶¡
