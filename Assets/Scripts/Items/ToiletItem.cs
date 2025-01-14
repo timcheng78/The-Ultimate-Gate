@@ -97,7 +97,7 @@ public class ToiletItem : MonoBehaviour, IInteractive
         PlayerMovement.Instance.ToggleMove(!status);
         PlayerAttributes.Instance._activingItem = status ? gameObject : null;
         DialogManagement.Instance.ToggleAccurateImage(!status);
-        DialogManagement.Instance.ToggleHalfCanvas(status);
+        //DialogManagement.Instance.ToggleHalfCanvas(status);
         //DialogManagement.Instance.ToggleInteractHelp1(status);
         cameraAttributes._cursorVisable = status;
         cameraAttributes._cursorLockMode = status ? CursorLockMode.Confined : CursorLockMode.Locked;

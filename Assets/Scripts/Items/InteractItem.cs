@@ -9,6 +9,7 @@ public class InteractItem : MonoBehaviour, IInteractive, ILockScreenObject
     [SerializeField] private bool _canRotate = false;
     [SerializeField] private bool _canControl = false;
     [SerializeField] private bool _isEmergency = false;
+    [SerializeField] private bool _isOrthographic = false;
     [SerializeField] private Vector3 _interactRotation;
     [SerializeField] private Vector3 _localScaleResize;
     [SerializeField] private GameObject _rotationCameraObject;
@@ -129,12 +130,14 @@ public class InteractItem : MonoBehaviour, IInteractive, ILockScreenObject
     private void HoverInItem()
     {
         _materials[^1].SetFloat("_IsActive", 1);
+        _materials[^1].SetFloat("_EMISSION", 1);
         DialogManagement.Instance.interactDialog.SetActive(true);
     }
 
     private void HoverOutItem()
     {
         _materials[^1].SetFloat("_IsActive", 0);
+        _materials[^1].SetFloat("_EMISSION", 0);
         DialogManagement.Instance.interactDialog.SetActive(false);
     }
 
@@ -206,6 +209,12 @@ public class InteractItem : MonoBehaviour, IInteractive, ILockScreenObject
         cameraAttributes._cursorVisable = status;
         cameraAttributes._cursorLockMode = status ? CursorLockMode.Confined : CursorLockMode.Locked;
         _isActiving = status;
+        if (_isOrthographic)
+        {
+            CameraManagement.Instance._interactCamera.orthographic = true;
+            CameraManagement.Instance._interactCamera.orthographicSize = .5f;
+        }
+        else CameraManagement.Instance._interactCamera.orthographic = false;
         if (_isActiving) Camera.main.GetComponent<CameraAttributes>().ZeroCameraSpeed();
         else StartCoroutine(Camera.main.GetComponent<CameraAttributes>().RestoreCameraSpeed());
     }
@@ -277,7 +286,8 @@ public class InteractItem : MonoBehaviour, IInteractive, ILockScreenObject
         if (PlayerAttributes.Instance._activingItem) return false;
         if (_isEmergency) return true;
         if (PlayerAttributes.Instance._isTriggerFlashlight) return true;
-        if (Enviroment.Instance.IsElectrified && LightManagement.Instance.CheckLightExist(_location)) return true;
+        if (LightManagement.Instance.CheckLightExist(_location)) return true;
+        if (Enviroment.Instance.IsElectrified) return true;
         return false;
     }
 

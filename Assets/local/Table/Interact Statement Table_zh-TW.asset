@@ -410,6 +410,10 @@ MonoBehaviour:
       \u5F8C \u518D \u9EDE \u4E00 \u6B21 \u5C31 \u7D50 \u675F \u4E86 \uFF01"
     m_Metadata:
       m_Items: []
+  - m_Id: 47189302980476928
+    m_Localized: "\u6709 \u6771 \u897F \u5FD8 \u8A18 \u62FF \u4E86 \u3002"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

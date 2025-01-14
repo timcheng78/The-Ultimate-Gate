@@ -8,6 +8,7 @@ public class SharedUtils
 {
     public static void SetLayer(Transform targetTransform, int layer)
     {
+        if (targetTransform.name == "nonamebook1") return;
         if (targetTransform.GetComponent<SwitchItem>() == null) targetTransform.gameObject.layer = layer; // 設定目標物件的層級
 
         // 設定子物件的層級
@@ -60,14 +61,20 @@ public class SharedUtils
         {
             Enviroment.Instance.IsEndGameFile = realEnd;
             // 若觸發未完成的召喚必須要解掉原本解開的狀態
-            if (Enviroment.Instance.IncompleteSummoning)
+            if (Enviroment.Instance.IncompleteSummoning && !isCrazyEnd)
             {
                 PuzzleManagement.Instance.SetPuzzleSolve("bath_room_2", "final_puzzle", false);
                 LockManagement.Instance.Locked("bath_room_2", "final_puzzle");
                 LockManagement.Instance.SetOpened("bath_room_2", "final_puzzle", false);
             }
             DataPersistenceManagement.Instance.SaveEndFile(isCrazyEnd);
+            DataPersistenceManagement.Instance.DeleteNormalFile();
         }
+    }
+
+    public static void SaveNormalEnd()
+    {
+        if (DataPersistenceManagement.Instance) DataPersistenceManagement.Instance.SaveNormalEndFile();
     }
 
     public static void SwitchGameScenes(GameObject demoGame, GameObject mainGame)
@@ -84,6 +91,12 @@ public class SharedUtils
             demoGame.SetActive(false);
             mainGame.SetActive(true);
         }
+    }
+
+    public static IEnumerator WaitingForSec(float sec, System.Action action = null)
+    {
+        yield return new WaitForSeconds(sec);
+        if (action != null) action.Invoke();
     }
 
 }

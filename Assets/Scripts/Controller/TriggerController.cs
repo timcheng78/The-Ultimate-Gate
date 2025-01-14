@@ -24,33 +24,12 @@ public class TriggerController : MonoBehaviour
     }
     private void OnTriggerEnter()
     {
-        _yog.SetActive(true);
-        SubtitleManagement.Instance.SpeedUpSentences();
         // GameOver - µ²§½(ºÆ)
         SharedUtils.GameOver(true, true);
-        //SoundManagement.Instance.PlaySoundFXClip(_crazyClip, Enviroment.Instance.Player.transform, 1f);
         StartCoroutine(MainGame.Instance.StopBGMFade());
-        if (_endGameBGM) _endGameBGM.Play();
         _virtualCamera.enabled = true;
-        AnimationCamera animationCamera = _virtualCamera.GetComponent<AnimationCamera>();
-        _animator.Play("Step3", -1, 0f);
-        _yogAnimator.Play("Yog", -1, 0f);
-        _scenes.material = _newMaterial;
-        foreach (GameObject gameObject in _needHide)
-        {
-            gameObject.SetActive(false);
-        }
-        animationCamera.StartToPlay(AnimationEnd);
-        SubtitleManagement.Instance.SubWordType.TextSpeed = .3f;
-        SubtitleManagement.Instance.SubWordType.SentencesSpeed = 1f;
-        SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .8f;
-        SubtitleManagement.Instance.SubWordType.TextArea.color = Color.red;
-        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Crazy End Plot Table"));
-    }
-
-    private void AnimationEnd()
-    {
-        StartCoroutine(WatingSecond());
+        SteamInitManagement.Instance.SettingAchievement(SteamInitManagement.ACHIEVEMENT_CRAZY_ENDING);
+        MainGame.Instance.CrazyEnd();
     }
     
     private IEnumerator WatingSecond()
@@ -65,8 +44,8 @@ public class TriggerController : MonoBehaviour
         CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
         cameraAttributes._cursorVisable = true;
         cameraAttributes._cursorLockMode = CursorLockMode.Confined;
-        SteamInitManagement.Instance.SettingAchievement(SteamInitManagement.ACHIEVEMENT_CRAZY_ENDING);
         SteamInitManagement.Instance.UpdateStat(SteamInitManagement.STAT_CRAZY_END_COUNT_SEC, Timer.Instance.GetNowSec());
         DialogManagement.Instance.endTimeText.SetText(Timer.Instance.GetFormatTime());
+        MainGame.Instance.CrazyEnd();
     }
 }

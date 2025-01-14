@@ -50,6 +50,75 @@ MonoBehaviour:
     m_Localized: You will forever...
     m_Metadata:
       m_Items: []
+  - m_Id: 32989792881860608
+    m_Localized: "This knowledge is prepared for me\u2026 It belongs to me!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986415359844352
+    m_Localized: What is this place? This is not where I'm supposed to be.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986515087810560
+    m_Localized: Calm down, it must be some kind of mechanism. I just haven't found
+      the right clue yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986521681256448
+    m_Localized: "This is impossible. These are puzzles I've already solved\u2014why
+      are they like this?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986526525677568
+    m_Localized: "No! These are just illusions! Why does my head hurt so much\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986532456423424
+    m_Localized: I can't stop. As long as I solve more puzzles, I can get back!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986538588495872
+    m_Localized: Yes! If I keep solving them, I will gain control over everything.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986544246611968
+    m_Localized: "Every puzzle challenges me\u2014they exist for me!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32986551632781312
+    m_Localized: "I need more\u2026 more\u2026 to feel the thrill of my brain burning!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989790457552896
+    m_Localized: Why are they so perfect? So enticing?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989791971696640
+    m_Localized: "When I solve them\u2026 oh, how delightful it is\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989793632641024
+    m_Localized: Programming languages? Hahaha, are these books trying to test me
+      again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989848708046848
+    m_Localized: "Wait a minute, these books\u2026 no, no! They're moving\u2014they're
+      alive! This is impossible!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989854538129408
+    m_Localized: Bring me more! Give me more books! More puzzles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989860011696128
+    m_Localized: No one can stop me, no one!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32989876860215296
+    m_Localized: "I've solved all the puzzles\u2014I am the ultimate escape master!
+      This door, I can break it too!"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

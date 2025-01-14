@@ -26,6 +26,7 @@ public class PlayerDraw : MonoBehaviour
     private CanvasGroup canvasGroup;
     private DrawTab drawPad;
     public static PlayerDraw Instance { get; private set; }
+    public GameObject DrawCanvas { get => canvas; }
     public int PaintType { get => paintType; set
         {
             drawPad.ChangePen(paintType, value);

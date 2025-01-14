@@ -152,6 +152,12 @@ public class SwitchItem : MonoBehaviour, IInteractive, IUnlockScreenObject, IDat
                     }
                     else
                     {
+                        if (_location.Equals("demo") && !PlayerAttributes.Instance._hasNotebook)
+                        {
+                            // 阻止玩家前進
+                            SubtitleManagement.Instance.AddSentencesToShow("Interact Statement Table", new string[] { _location, "door_leave", "t"});
+                            return;
+                        }
                         LockManagement.Instance.GetLockObject(_location, "door").LockObj.GetComponent<Door>().Open(_location);
                         SoundManagement.Instance.PlaySoundFXClip(_openSoundClip, transform, 1f);
                         if (_location.Equals("demo"))
@@ -181,7 +187,6 @@ public class SwitchItem : MonoBehaviour, IInteractive, IUnlockScreenObject, IDat
                 // 沒上鎖
                 else
                 {
-                    
                     // 播放動畫並開門
                     if (_status)
                     {
@@ -299,6 +304,7 @@ public class SwitchItem : MonoBehaviour, IInteractive, IUnlockScreenObject, IDat
             case "handle":
                 if (!LockManagement.Instance.IsLocked(_location, "door"))
                 {
+                    if (_location.Equals("demo") && !PlayerAttributes.Instance._hasNotebook) return;
                     _status = !_status;
                     if (_status && _particle) _particle.Play();
                     LockManagement.Instance.SetOpened(_location, "door", _status);
@@ -366,10 +372,13 @@ public class SwitchItem : MonoBehaviour, IInteractive, IUnlockScreenObject, IDat
                             // play display animation
                             AnimationManagement.Instance.ToggleAnimating($"{_location}_display_cabinet", _status);
                             // play sound
-                            AudioSource audio = transform.parent.GetComponent<AudioSource>();
-                            if (_status) audio.Play();
-                            else audio.Pause();
-                            // 過關不跑字幕
+                            if (!PuzzleManagement.Instance.IsSolvePuzzle(_location, "door"))
+                            {
+                                AudioSource audio = transform.parent.GetComponent<AudioSource>();
+                                if (_status) audio.Play();
+                                else audio.Pause();
+                                // 過關不跑字幕
+                            }
                             return;
                         }
                     }

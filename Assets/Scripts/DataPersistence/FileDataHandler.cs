@@ -9,6 +9,7 @@ public class FileDataHandler
     private string dataDirPath = "";
     private string dataFileName = "";
     private string playerSettingName = "player_setting.json";
+    private string normalEnd = "normal";
     private bool useEncryption = false;
     private readonly string encryptionCodeWord = "word";
 
@@ -137,16 +138,36 @@ public class FileDataHandler
         }
     }
 
+    public void SaveNormalEndFile()
+    {
+        // use Path.Combine to account for different OS's having different path separators
+        string fullPath = Path.Combine(dataDirPath, normalEnd);
+        try
+        {
+            // create the directory the file be written to if it doesn't already exist
+            Directory.CreateDirectory(Path.GetDirectoryName(fullPath));
+
+            // serialize the c# game data obejct into Json
+            string dataToStore = JsonUtility.ToJson("", true);
+
+            // write the serialized data to the file
+            using FileStream stream = new(fullPath, FileMode.Create);
+            using StreamWriter writer = new(stream);
+            writer.Write(dataToStore);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError("Error occured when trying to save data to file: " + fullPath + "\n" + e);
+        }
+    }
 
     public static bool CheckFileExist(string dataDirPath, string name)
     {
         string fullPath = Path.Combine(dataDirPath, name);
         if (File.Exists(fullPath))
         {
-            Debug.Log("Find End Data: " + fullPath);
             return true;
         }
-        Debug.Log("No Data Found: " + fullPath);
         return false;
     }
 

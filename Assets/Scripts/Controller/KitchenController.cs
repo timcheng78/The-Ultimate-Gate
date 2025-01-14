@@ -212,9 +212,9 @@ public class KitchenController : AbstractRoomController
 
     public void LightButton()
     {
-        MeshRenderer renderer = _hideButton.GetComponent<MeshRenderer>();
+        Renderer renderer = _hideButton.GetComponent<Renderer>();
         renderer.materials[0].EnableKeyword("_EMISSION");
-        renderer.materials[0].SetColor("_EmissionColor", new Color(3.0f, 0, 0));
+        renderer.materials[0].SetColor("_EmissionColor", new Color(5.0f, 0, 0));
     }
 
     public void StartTimer()

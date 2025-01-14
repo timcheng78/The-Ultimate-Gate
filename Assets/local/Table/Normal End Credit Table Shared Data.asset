@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Normal End Credit Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Normal End Credit Table
+  m_TableCollectionNameGuidString: ff11fa684d1ebc04186f4ed073b4e972
+  m_Entries:
+  - m_Id: 24928419840
+    m_Key: normal_ending_plot_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50584977408
+    m_Key: normal_ending_plot_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71954956288
+    m_Key: normal_ending_plot_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69308375035273216
+    m_Key: normal_ending_plot_4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69308381481918464
+    m_Key: normal_ending_plot_5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69331352955117568
+    m_Key: normal_ending_plot_6
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8103356763010236418
+  references:
+    version: 2
+    RefIds:
+    - rid: 8103356763010236418
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1719885692850

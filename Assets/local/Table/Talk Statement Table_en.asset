@@ -25,25 +25,29 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 58898117132288
-    m_Localized: "Someone is watching you. \nWhy haven't you solved these simple
-      puzzles yet?"
+    m_Localized: 'Someone is watching you.
+
+      What are you waiting for to solve
+      these simple puzzles?'
     m_Metadata:
       m_Items: []
   - m_Id: 58900180729856
-    m_Localized: Can't the puzzle master figure out these simple symbols?
+    m_Localized: The puzzle master can't even figure out these basic symbols?
     m_Metadata:
       m_Items: []
   - m_Id: 58901636153344
-    m_Localized: Is someone watching me? Are there cameras in the escape room?
+    m_Localized: 'Someone is watching me?
+
+      Is there a camera in this room?'
     m_Metadata:
       m_Items: []
   - m_Id: 58903586504704
-    m_Localized: In your dreams, these puzzles will become a nightmare from which
-      you cannot wake up.
+    m_Localized: In your dreams, these puzzles will become a nightmare which you
+      cannot wake up from.
     m_Metadata:
       m_Items: []
   - m_Id: 58904987402240
-    m_Localized: Can you solve these puzzles before losing your sanity completely?
+    m_Localized: Can you solve these puzzles before losing your mind completely?
     m_Metadata:
       m_Items: []
   - m_Id: 58934410444800
@@ -51,26 +55,35 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 58935941365760
-    m_Localized: Remember, these puzzles are just the beginning.
+    m_Localized: Remember, these puzzles are just the beginning of a bigger journey.
     m_Metadata:
       m_Items: []
   - m_Id: 59030673915904
-    m_Localized: Do you think you're a master puzzle solver? Here, you're just a
-      manipulated pawn.
+    m_Localized: 'Thinking you''re a puzzle master?
+
+      Here, you''re just another
+      manipulated pawn.'
     m_Metadata:
       m_Items: []
   - m_Id: 59039658115072
-    m_Localized: Have you given up? Promise me one thing, keep this secret to yourself.
-      I'm afraid others might think you...
+    m_Localized: 'Have you given up? Promise me one thing, keep this secret to yourself.
+
+      I''m
+      afraid others might think you''re a Loser.'
     m_Metadata:
       m_Items: []
   - m_Id: 5068789038809088
-    m_Localized: Are these simple puzzles just a test? They must be testing something.
+    m_Localized: 'Are these simple puzzles just a test?
+
+      They must be testing
+      something...'
     m_Metadata:
       m_Items: []
   - m_Id: 5068878486536192
-    m_Localized: Did I do something wrong? It doesn't make sense that I can't solve
-      these puzzles.
+    m_Localized: 'Have I done something wrong? Why can''t I solve these puzzles?
+
+      It
+      just doesn''t make any sense....'
     m_Metadata:
       m_Items: []
   - m_Id: 5068943095595008
@@ -78,20 +91,23 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 5068994643591168
-    m_Localized: Your brain seems to have blue-screened. Do you need a reboot?
+    m_Localized: 'Your brain ran into a problem and needs to restart.
+
+      We''re
+      just collecting some info...
+
+      Oh wait, there''s no info to collect.'
     m_Metadata:
       m_Items: []
   - m_Id: 5069018970554368
-    m_Localized: If a game has issues, you restart it first. What about your brain?
-    m_Metadata:
-      m_Items: []
-  - m_Id: 5069036473384960
-    m_Localized: Your efficiency is like an O(n^2) algorithm. Yes, don't doubt it,
-      just plain bad.
+    m_Localized: 'If there''s an issue with the game, you can always restart it.
+
+      But
+      what about your brain?'
     m_Metadata:
       m_Items: []
   - m_Id: 38374051115794432
-    m_Localized: So dark? What can you see?
+    m_Localized: So dark. What can you see?
     m_Metadata:
       m_Items: []
   - m_Id: 38375586793095168

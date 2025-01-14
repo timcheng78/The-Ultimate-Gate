@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 435714359296
-    m_Localized: Get up!
+    m_Localized: Wake up!
     m_Metadata:
       m_Items: []
   - m_Id: 442962116608
@@ -27,21 +27,28 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 445705191424
-    m_Localized: Cabinet, clock, painting?
+    m_Localized: Cabinet, clock and drawing?
     m_Metadata:
       m_Items: []
   - m_Id: 457226944512
-    m_Localized: This is the first escape room from the reality show premiere five
-      years ago, right?
+    m_Localized: 'Is this the first escape room from the reality show,
+
+      that
+      premiered five years ago?'
     m_Metadata:
       m_Items: []
   - m_Id: 460125208576
-    m_Localized: "A cramped room, rudimentary mechanisms... \nthe TV station spared
-      no expense in giving this new show its highest budget and resources."
+    m_Localized: 'A tiny room, shabby items...
+
+      That is the maximum budget
+      and resources the TV show was willing to offer.'
     m_Metadata:
       m_Items: []
   - m_Id: 463128330240
-    m_Localized: This is the starting point of 'ROOM,' and also my starting point.
+    m_Localized: 'This is the starting point of ''ROOM'',
+
+      also the starting
+      point of my journey.'
     m_Metadata:
       m_Items: []
   - m_Id: 465410031616
@@ -49,11 +56,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 898249621504
-    m_Localized: Who's speaking?!
+    m_Localized: Who's talking?!
     m_Metadata:
       m_Items: []
   - m_Id: 6588804464640
-    m_Localized: I'm back here again?
+    m_Localized: Why am I back to here again?
     m_Metadata:
       m_Items: []
   references:

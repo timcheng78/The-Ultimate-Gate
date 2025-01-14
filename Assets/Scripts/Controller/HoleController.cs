@@ -109,7 +109,7 @@ public class HoleController : MonoBehaviour, IInteractive
         CameraManagement.Instance.ChangeHoleCamera(_position, status);
         PlayerAttributes.Instance._activingItem = status ? gameObject : null;
         DialogManagement.Instance.ToggleAccurateImage(!status);
-        DialogManagement.Instance.ToggleHalfCanvas(status);
+        //DialogManagement.Instance.ToggleHalfCanvas(status);
         //DialogManagement.Instance.ToggleInteractHelp1(status);
         _isActiving = status;
     }

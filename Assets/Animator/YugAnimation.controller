@@ -30,19 +30,19 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: FBX_Temp
-  m_Speed: 0.1
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -1881513580907979650, guid: 0888e00f5c34ff9409fd6f84cd35abf6, type: 3}
+  m_Motion: {fileID: -9125698303822428630, guid: d2ee583e12b3d084c8a16f16d8a2534f, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -19,66 +19,67 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 133053382656
-    m_Localized: The color of the buttons on the electronic lock and the color of
-      the wall.
+    m_Localized: The colors on the lock and the walls.
     m_Metadata:
       m_Items: []
   - m_Id: 346761560064
-    m_Localized: The password on the electronic lock consists of a group of four
-      digits.
+    m_Localized: Each password consists of four digits.
     m_Metadata:
       m_Items: []
   - m_Id: 400356376576
-    m_Localized: Analyze the shape and size of the cylindrical body and the lines
-      on it.
+    m_Localized: '"Lines", points and planes are the foundation of all things.'
     m_Metadata:
       m_Items: []
   - m_Id: 408187142144
-    m_Localized: Lines are the most basic symbols, forming part of the text.
+    m_Localized: 'Analyze the size and shape of the columns,
+
+      as well as the
+      lines on them.'
     m_Metadata:
       m_Items: []
   - m_Id: 418136031232
-    m_Localized: There are hints outside the framework of the puzzle. Don't understand?
-      Check the side of the cabinet.
+    m_Localized: Lines interweave to form letters, and letters construct words.
     m_Metadata:
       m_Items: []
   - m_Id: 2402310258688
-    m_Localized: The colors on the clock.
+    m_Localized: Lines, "Points" and planes are the foundation of all things.
     m_Metadata:
       m_Items: []
   - m_Id: 3143611547648
-    m_Localized: The colors on the Puzzle Cube.
+    m_Localized: The colors on the clock corresponds to the colors on the Puzzle
+      Cube.
     m_Metadata:
       m_Items: []
   - m_Id: 3631266496512
-    m_Localized: How many common points are there between the clock and the Puzzle
-      Cube?
+    m_Localized: The most important "Point" on the clock is 12 o'clock.
     m_Metadata:
       m_Items: []
   - m_Id: 3650132475904
-    m_Localized: The most important position on a clock is the 12 o'clock direction.
+    m_Localized: Calm down and think about the key points mentioned earlier.
     m_Metadata:
       m_Items: []
   - m_Id: 3666905497600
-    m_Localized: The missing corner on the Purple face represents the hour hand's
-      position, while the Yellow one represents the minute hand.
+    m_Localized: "Do you know, \"Point\"(\u9EDE) also has the meaning of time in
+      Chinese?"
     m_Metadata:
       m_Items: []
   - m_Id: 4991634472960
-    m_Localized: The only constant truth in the universe is that everything changes.
+    m_Localized: Lines, points and "Planes" are the foundation of all things.
     m_Metadata:
       m_Items: []
   - m_Id: 5015076438016
-    m_Localized: The author's name is just like the directions.
+    m_Localized: Each square has a "surface" it represents.
     m_Metadata:
       m_Items: []
   - m_Id: 5016603164672
-    m_Localized: When looking from south to north, does the connected red area resemble
-      a certain number?
+    m_Localized: People often forget how important an artist is to a masterpiece.
     m_Metadata:
       m_Items: []
   - m_Id: 5017081315328
-    m_Localized: Looking from west to east, north to south, and east to west.
+    m_Localized: 'Examine the artist''s name carefully.
+
+      Have you grasped the
+      essence of this painting?'
     m_Metadata:
       m_Items: []
   - m_Id: 25064645938741248
@@ -155,9 +156,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 25066158476066816
-    m_Localized: "According to the rules of the ladder game, when encountering a
-      junction, you must turn. \nNo matter how complicated it is, each riddle will
-      have only one solution."
+    m_Localized: 'According to the rules of the ladder game, when encountering a
+      junction, you must turn.
+
+      No matter how complicated it is, each riddle
+      will have only one solution.'
     m_Metadata:
       m_Items: []
   - m_Id: 25066207713001472
@@ -198,24 +201,89 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 26493461668134912
-    m_Localized: The position of the large triangle needs to be set first.
+    m_Localized: This puzzle cube... is essentially a clock!
     m_Metadata:
       m_Items: []
   - m_Id: 34141759233163264
-    m_Localized: Just to confirm, you want to play an escape room game, right?
+    m_Localized: 'Might want to solve the puzzle on your own first?
+
+      You can
+      always come back here later on.'
     m_Metadata:
       m_Items: []
   - m_Id: 34142594021294080
-    m_Localized: "There should only be three meaningful objects, arranged from small
-      to large, \nwhich form three words. What are they?"
+    m_Localized: 'Hints are hidden beyond the puzzle. Still don''t get it?
+
+      Why
+      not check the side of the cabinet?'
     m_Metadata:
       m_Items: []
   - m_Id: 34142971831615488
-    m_Localized: This puzzle once appeared in an IQ test question bank.
+    m_Localized: 'If I tell you any more, there''s no need for you.
+
+      Shall
+      we just skip to the end?'
     m_Metadata:
       m_Items: []
-  - m_Id: 34386130327142400
-    m_Localized: Adjust the button until the shadow becomes O P E N.
+  - m_Id: 58012597461442560
+    m_Localized: Turn off your flashlight and use the music box's projector.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486620815687680
+    m_Localized: Each Point indicates a number.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486787526688768
+    m_Localized: What time is it Pointing toward...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486845655547904
+    m_Localized: 'No artistic talent?
+
+      Truly, I wonder where the meaning in
+      your life comes from.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486883391700992
+    m_Localized: The only unchanging truth in the universe is that everything is
+      constantly changing.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486890941448192
+    m_Localized: What kind of "surface" does the square's "facade" actually represent?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486897249681408
+    m_Localized: Round and round it goes, I'm already feeling dizzy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39486905105612800
+    m_Localized: In my daze, there seems to be an 8 on the 'South Plane'... or was
+      it actually a 6...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58010501194440704
+    m_Localized: The knife and spoon on the electric box form a symbol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58011276628975616
+    m_Localized: Is there a combination that matches it exactly?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58011596440461312
+    m_Localized: Figure out the relationship between each location and its code.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58011850057441280
+    m_Localized: Try to record each journey with lines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58012268162441216
+    m_Localized: As if!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58012756471701504
+    m_Localized: Stand farther away, view three layers at once, and you'll see it.
     m_Metadata:
       m_Items: []
   references:

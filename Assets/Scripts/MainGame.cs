@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+using UnityEngine.Playables;
+using UnityEngine.UI;
 
 public class MainGame : MonoBehaviour
 {
@@ -31,13 +33,23 @@ public class MainGame : MonoBehaviour
     [Header("End Game Setting")]
     [SerializeField] private AnimationCamera _endGameCamera1;
     [SerializeField] private AnimationCamera _endGameCamera2;
+    [SerializeField] private AnimationCamera _endGameCamera3;
+    [SerializeField] private AnimationCamera _endGameCamera4;
     [SerializeField] private Animator _endAnimator1;
     [SerializeField] private Animator _endAnimator2;
     [SerializeField] private WordType _endDialogWord;
-    [SerializeField] private Light[] _lights;
-    [SerializeField] private float _lightSpeed = .5f;
-    [SerializeField] private AudioClip _truthEndClip;
+    [SerializeField] private AudioClip _normalEndClip;
+    [SerializeField] private AudioSource _truthEndClip;
     [SerializeField] private AudioSource _outDoorEndAudio;
+    [SerializeField] private float _endWaitTime = 0.0f;
+    [SerializeField] private ObjectFlashEffect _flashEffect;
+    [SerializeField] private GameObject[] _truthEndHideObjects;
+    [SerializeField] private GameObject _truthEndGameObjectShow;
+    [SerializeField] private GameObject _truthEndGameObjectHide;
+    [SerializeField] private Animator _truthEndExitDoorAnimator;
+    [SerializeField] private PlayableDirector _normalEndDirector;
+    [SerializeField] private PlayableDirector _truthEndDirector;
+    [SerializeField] private PlayableDirector _crazyEndDirector;
 
     [Header("Step 1")]
     [SerializeField] private GameObject _step1Object;
@@ -53,6 +65,9 @@ public class MainGame : MonoBehaviour
     private int _step = 0;
     private int _endGameCallback = 0;
     private int _endGameCallbackCount = 0;
+    private int _truthEndCount = 8;
+    private int _normalEndCount = 0;
+    private int _crazyEndCount = 0;
 
     [Header("debug")]
     [SerializeField] private string _useTest = "";
@@ -109,6 +124,8 @@ public class MainGame : MonoBehaviour
                     StartCoroutine(WaitToStart());
                     break;
                 }
+            default:
+                break;
         }
     }
 
@@ -268,54 +285,234 @@ public class MainGame : MonoBehaviour
 
     public void OutDoorEnd()
     {
+        SteamInitManagement.Instance.SettingAchievement(SteamInitManagement.ACHIEVEMENT_NORMAL_END);
         SubtitleManagement.Instance.SpeedUpSentences();
         SharedUtils.GameOver(true);
+        SharedUtils.SaveNormalEnd();
         _endType = 1;
-        _endGameCallbackCount = 1;
+        _endGameCallbackCount = 2;
+        _step = 1;
         StartCoroutine(StopBGMFade());
-        _outDoorEndAudio.Play();
+        SoundManagement.Instance.PlaySoundFXClip(_normalEndClip, Enviroment.Instance.Player.transform, 1f);
+        //_outDoorEndAudio.Play();
         _endGameCamera1.GetComponent<CinemachineVirtualCamera>().enabled = true;
-        _endGameCamera1.StartToPlay(EndGameAnimationEnded);
-        _endAnimator1.Play("Step4", -1, 0f);
-        StartCoroutine(EndGameLightOpen());
+        //_endGameCamera1.StartToPlay(NormalEndAnimation);
+        //_endGameCamera3.type = 1;
+        //_endAnimator1.Play("Step4", -1, 0f);
+        _normalEndDirector.Play();
+        _normalEndDirector.stopped += _normalEndDirector_played;
+        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Truth End Plot Table", EndGameAnimationEnded, new List<int>() { 3, 4, 5, 6, 7, 8 }, true));
+        StartCoroutine(EngGamePhotoShot());
+    }
+
+    private void _normalEndDirector_played(PlayableDirector obj)
+    {
+        Debug.Log("Normal The end");
+    }
+
+    public void DirectorPause(PlayableDirector playable)
+    {
+        playable.Pause();
+
+        SharedUtils.WaitingForSec(2.0f, () => playable.Play());
     }
 
     public void ExitDoorEnd()
     {
+        SteamInitManagement.Instance.SettingAchievement(SteamInitManagement.ACHIEVEMENT_TRUE_ENDING);
+        foreach (GameObject gameObject in _truthEndHideObjects)
+        {
+            gameObject.SetActive(false);
+        }
         SubtitleManagement.Instance.SpeedUpSentences();
         SharedUtils.GameOver(true);
+        CameraManagement.Instance.TruthEndCameraSwitch();
         _endType = 2;
         _endGameCallbackCount = 2;
         StartCoroutine(StopBGMFade());
-        SoundManagement.Instance.PlaySoundFXClip(_truthEndClip, Enviroment.Instance.Player.transform, 1f);
-        _endGameCamera2.GetComponent<CinemachineVirtualCamera>().enabled = true;
-        _endGameCamera2.StartToPlay(EndGameAnimationEnded);
+        _truthEndClip.Play();
+        _truthEndDirector.Play();
+        _truthEndDirector.stopped += _truthEndDirector_stopped;
         SubtitleManagement.Instance.SubWordType.TextSpeed = .15f;
         SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .7f;
-        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Truth End Plot Table", EndGameAnimationEnded));
-        _endAnimator2.Play("Step5", -1, 0f);
+        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Truth End Plot Table", EndGameAnimationEnded, new List<int>() { 0, 1, 2 }));
+    }
+    public void _truthEndDirector_stopped(PlayableDirector obj)
+    {
+        Debug.Log("Truth The end");
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = true;
+        cameraAttributes._cursorLockMode = CursorLockMode.Confined;
+        DialogManagement.Instance.endgameCanvas.SetActive(true);
+        DialogManagement.Instance.endgameBackground.SetActive(false);
+        DialogManagement.Instance.endgameButton.SetActive(false);
+        DialogManagement.Instance.endgameFinButton.SetActive(true);
+        DialogManagement.Instance.endTimeText.gameObject.SetActive(false);
     }
 
-    IEnumerator EndGameLightOpen()
+    IEnumerator EngGamePhotoShot()
     {
-        float intensity = 0.0f;
-        while (intensity < 15)
+        int count = 0;
+        yield return new WaitForSeconds(2);
+        while (count < 13)
         {
-            foreach (Light light in _lights)
-            {
-                light.enabled = true;
-                light.intensity = intensity;
-            }
-            yield return null;
-            intensity += _lightSpeed * Time.deltaTime * 60; ;
+            _flashEffect.TriggerFlicker(); ;
+            yield return new WaitForSeconds(UnityEngine.Random.Range(0f, 2f));
+            count++;
         }
+    } 
+
+    public void NormalEndAnimation()
+    {
+        SubtitleManagement.Instance.SubWordType.GetComponent<RectTransform>().offsetMax = new Vector2(-800f, 0);
+        SubtitleManagement.Instance.SubWordType.TextSpeed = .3f;
+        SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .6f;
+        SubtitleManagement.Instance.SubWordType.GetComponent<TMP_Text>().color = Color.white;
+        SubtitleManagement.Instance.ToggleActiveCanvas(true);
+        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Normal End Credit Table", null, new List<int>() { _normalEndCount++ }));
+    }
+
+    private void NormalNextStage()
+    {
+        StartCoroutine(LaterEndWait());
+    }
+
+    public void TruthEndAnimation()
+    {
+        if (_truthEndCount == 21)
+        {
+            SubtitleManagement.Instance.ToggleActiveCanvas(false);
+            return;
+        }
+        if (_truthEndCount > 15)
+        {
+            SubtitleManagement.Instance.SubWordType.GetComponent<RectTransform>().offsetMax = new Vector2(-800f, 0);
+            SubtitleManagement.Instance.SubWordType.TextSpeed = .3f;
+            SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .6f;
+        } 
+        else if (_truthEndCount > 11)
+        {
+            SubtitleManagement.Instance.SubWordType.GetComponent<TMP_Text>().color = Color.white;
+        }
+        else
+        {
+            SubtitleManagement.Instance.SubWordType.GetComponent<TMP_Text>().color = Color.red;
+        }
+        SubtitleManagement.Instance.ToggleActiveCanvas(true);
+        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Truth End Plot Table", null, new List<int>() { ++_truthEndCount }));
+    }
+
+    public void CrazyEndAnimation()
+    {
+        if (_crazyEndCount < 16)
+        {
+            SubtitleManagement.Instance.SubWordType.GetComponent<TMP_Text>().color = Color.white;
+        }
+        else
+        {
+            SubtitleManagement.Instance.SubWordType.GetComponent<TMP_Text>().color = Color.red;
+            SubtitleManagement.Instance.SubWordType.SentencesSpeed = 2.5f;
+        }
+        SubtitleManagement.Instance.SubWordType.GetComponent<RectTransform>().offsetMax = new Vector2(0, -800f);
+        SubtitleManagement.Instance.SubWordType.TextSpeed = .15f;
+        SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .7f;
+        SubtitleManagement.Instance.ToggleActiveCanvas(true);
+        StartCoroutine(SubtitleManagement.Instance.SubWordType.PlayStoryPlot("Crazy End Plot Table", null, new List<int>() { _crazyEndCount++ }));
+    }
+
+    public void NormalEndStopped()
+    {
+        Debug.Log("Normal The end");
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = true;
+        cameraAttributes._cursorLockMode = CursorLockMode.Confined;
+        DialogManagement.Instance.ToggleEndgameCanvas("");
+        DialogManagement.Instance.endgameCanvas.SetActive(true);
+        DialogManagement.Instance.endgameBackground.SetActive(true);
+        DialogManagement.Instance.endgameButton.SetActive(true);
+        DialogManagement.Instance.endTimeText.gameObject.SetActive(false);
+        _outDoorEndAudio.Play();
+    }
+
+    public void CrazyEndStopped()
+    {
+        Debug.Log("Crazy The end");
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = true;
+        cameraAttributes._cursorLockMode = CursorLockMode.Confined;
+        var localString = LocalizationSettings.StringDatabase.GetTableEntry("Ending Plot Table", "crazy_ending_plot.1");
+        DialogManagement.Instance.endGameText.color = Color.red;
+        DialogManagement.Instance.endGameText.fontSize = 48;
+        DialogManagement.Instance.endgameBackground.GetComponent<Image>().color = Color.black;
+        DialogManagement.Instance.ToggleEndgameCanvas(localString.Entry.GetLocalizedString());
+        DialogManagement.Instance.endgameCanvas.SetActive(true);
+        DialogManagement.Instance.endgameBackground.SetActive(true);
+        DialogManagement.Instance.endgameButton.SetActive(true);
+        DialogManagement.Instance.endTimeText.gameObject.SetActive(false);
+    }
+
+    public void TruthNewsPaper()
+    {
+        _truthEndDirector.Pause();
+        ShowNewPaper();
+    }
+
+    private void TruthNextStage()
+    {
+        StartCoroutine(SharedUtils.WaitingForSec(3f, ShowNewPaper));
+        SubtitleManagement.Instance.ToggleActiveCanvas(false);
+        _truthEndGameObjectHide.SetActive(false);
+        _truthEndGameObjectShow.SetActive(true);
+    }
+
+    private void ShowNewPaper()
+    {
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = true;
+        cameraAttributes._cursorLockMode = CursorLockMode.Confined;
+        DialogManagement.Instance.ToggleEndgameCanvas("");
+        DialogManagement.Instance.ToggleEndGameButton();
+        DialogManagement.Instance.ToggleEndgameNewspaper(true);
+        DialogManagement.Instance.endTimeText.gameObject.SetActive(false);
+    }
+
+    private void TruthNextStage2()
+    {
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = false;
+        cameraAttributes._cursorLockMode = CursorLockMode.Locked;
+        DialogManagement.Instance.ToggleEndgameCanvas("");
+        // open the door
+        _endGameCamera3.GetComponent<CinemachineVirtualCamera>().enabled = false;
+        _endGameCamera4.GetComponent<CinemachineVirtualCamera>().enabled = true;
+        StartCoroutine(SharedUtils.WaitingForSec(2f, TruthNextStage3));
+    }
+
+    private void TruthNextStage3()
+    {
+        _endGameCamera4.StartToPlay(NormalNextStage);
+        StartCoroutine(SharedUtils.WaitingForSec(5f, TruthEndOpenDoor));
+    }
+
+    private void TruthEndOpenDoor()
+    {
+        _truthEndExitDoorAnimator.Play("Exit Door Open");
+    }
+
+    private IEnumerator LaterEndWait()
+    {
+        yield return new WaitForSeconds(3);
+        EndGameAnimationEnded();
     }
 
     private void EndGameAnimationEnded()
     {
         if (++_endGameCallback < _endGameCallbackCount) return;
         _maskCanvas.SetActive(true);
-        StartCoroutine(StartMask(EndGameSubtitle, 20));
+        CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+        cameraAttributes._cursorVisable = true;
+        cameraAttributes._cursorLockMode = CursorLockMode.Confined;
+        StartCoroutine(StartMask(BackToMenu, 20));
     }
 
     private void EndGameSubtitle()
@@ -323,13 +520,13 @@ public class MainGame : MonoBehaviour
         if (_endType.Equals(1))
         {
             SubtitleManagement.Instance.ToggleActiveCanvas(true);
-            SubtitleManagement.Instance.SubWordType.TextSpeed = .3f;
-            SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .6f;
-            StartCoroutine(SubtitleManagement.Instance.SubWordType.ShowSentences(LocalizationSettings.StringDatabase.GetTableEntry("Ending Plot Table", "normal_ending_plot.1").Entry.GetLocalizedString().Split(" "), EndGameShowPaper));
+            _endWaitTime = 4.0f;
+            StartCoroutine(SubtitleManagement.Instance.SubWordType.ShowSentences(LocalizationSettings.StringDatabase.GetTableEntry("Ending Plot Table", "normal_ending_plot.1").Entry.GetLocalizedString().Split(" "), EndGameShowPaper, null, true));
         }
         else if (_endType.Equals(2))
         {
             SubtitleManagement.Instance.ToggleActiveCanvas(true);
+            _endWaitTime = 4.0f;
             SubtitleManagement.Instance.SubWordType.TextSpeed = .3f;
             SubtitleManagement.Instance.SubWordType.SoundFX.pitch = .6f;
             StartCoroutine(SubtitleManagement.Instance.SubWordType.ShowSentences(LocalizationSettings.StringDatabase.GetTableEntry("Ending Plot Table", "truth_ending_plot.1").Entry.GetLocalizedString().Split(" "), EndGameShowPaper));
@@ -344,9 +541,16 @@ public class MainGame : MonoBehaviour
 
     IEnumerator EndGameWaitSec()
     {
-        yield return new WaitForSeconds(4);
-        //if (_endType.Equals(2)) DialogManagement.Instance.ToggleEndgameNewspaper(true);
-        TheEnd();
+        yield return new WaitForSeconds(_endWaitTime);
+        SubtitleManagement.Instance.ToggleActiveCanvas(false);
+        SubtitleManagement.Instance.SubWordType.GetComponent<RectTransform>().offsetMax = new Vector2(0, 0);
+        if (_endType == 1) TheEnd();
+    }
+
+    public void CrazyEnd()
+    {
+        _crazyEndDirector.Play();
+        _crazyEndDirector.stopped += _normalEndDirector_played;
     }
 
     private void TheEnd()
@@ -371,10 +575,9 @@ public class MainGame : MonoBehaviour
         CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
         cameraAttributes._cursorVisable = true;
         cameraAttributes._cursorLockMode = CursorLockMode.Confined;
-        if (_endType.Equals(2)) DialogManagement.Instance.ToggleEndGameButton();
+        DialogManagement.Instance.ToggleEndGameButton();
         if (_endType.Equals(1))
         {
-            if (_outDoorEndAudio) _outDoorEndAudio.Stop();
             SteamInitManagement.Instance.SettingAchievement(SteamInitManagement.ACHIEVEMENT_NORMAL_END);
             SteamInitManagement.Instance.UpdateStat(SteamInitManagement.STAT_NORMAL_END_COUNT_SEC, Timer.Instance.GetNowSec());
         }
@@ -434,6 +637,7 @@ public class MainGame : MonoBehaviour
 
     public void BackToMenu()
     {
+        
         DataPersistenceManagement.Instance.DeleteGame();
         DataPersistenceManagement.Instance.HasData = false;
         DataPersistenceManagement.Instance.BackToMainMenu();
@@ -443,12 +647,18 @@ public class MainGame : MonoBehaviour
     {
         if (_step.Equals(0))
         {
-            DialogManagement.Instance.endGameText.SetText("");
-            DialogManagement.Instance.ToggleEndgameNewspaper(true);
-            _step++;
+            CameraAttributes cameraAttributes = Camera.main.GetComponent<CameraAttributes>();
+            cameraAttributes._cursorVisable = false;
+            cameraAttributes._cursorLockMode = CursorLockMode.Locked;
+            DialogManagement.Instance.ToggleEndgameCanvas("");
+            DialogManagement.Instance.ToggleEndGameButton();
+            DialogManagement.Instance.ToggleEndgameNewspaper(false);
+            _truthEndDirector.Resume();
         }
         else if (_step.Equals(1))
         {
+            if (!(_truthEndClip.isPlaying || _outDoorEndAudio.isPlaying)) _outDoorEndAudio.Play();
+            DialogManagement.Instance.endGameText.SetText("");
             DialogManagement.Instance.ToggleEndgameNewspaper(false);
             DialogManagement.Instance.ToggleEndGameButton();
             DialogManagement.Instance.endGameCredits.SetActive(true);

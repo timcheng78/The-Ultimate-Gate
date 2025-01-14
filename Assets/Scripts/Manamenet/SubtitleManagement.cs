@@ -137,7 +137,8 @@ public class SubtitleManagement : MonoBehaviour, IDataPersistence
             _readyToShow.Add(tableName, new List<string>());
         }
         _readyToShow[tableName].Add(sentences);
-        if (!tableName.Equals("Hint Table")) _usedSentences.Add(sentences);
+        Debug.Log(sentences);
+        if (!tableName.Equals("Hint Table") && sentences.IndexOf("living_room.") == -1 && sentences.IndexOf("_lock_noKey") == -1) _usedSentences.Add(sentences);
         _timer_f = 0f;
         _timer_i = 0;
     }
@@ -145,6 +146,7 @@ public class SubtitleManagement : MonoBehaviour, IDataPersistence
     public bool AddSentencesToShow(string table, string[] nodes)
     {
         string sentence = FindAllStatements(table, _allStatement, nodes);
+        Debug.Log(sentence);
         if (sentence != null)
         {
             StackSentences(table, sentence);
@@ -343,6 +345,7 @@ public class SubtitleManagement : MonoBehaviour, IDataPersistence
                 string singleLine = "";
                 foreach (string vocabulary in vocabularies)
                 {
+                    string nonBreakVocabulary = vocabulary.Replace('\n', ' ');
                     // count words to break line
                     if (!String.IsNullOrEmpty(lastVocabulary))
                     {
@@ -359,7 +362,7 @@ public class SubtitleManagement : MonoBehaviour, IDataPersistence
                         // The color of the
                     }
                     // add to lastVocabulary
-                    lastVocabulary = vocabulary;
+                    lastVocabulary = nonBreakVocabulary;
                 }
                 if ((singleLine.Length + lastVocabulary.Length) > _englishWordsPerLine)
                 {
@@ -472,14 +475,14 @@ public class SubtitleManagement : MonoBehaviour, IDataPersistence
                 else
                 {
                     string result = list[0];
-                    if (list.Count.Equals(1))
-                    {
-                        dictionary.Remove(nodes[0]);
-                    }
-                    else
-                    {
-                        list.RemoveAt(0);
-                    }
+                    //if (list.Count.Equals(1))
+                    //{
+                    //    dictionary.Remove(nodes[0]);
+                    //}
+                    //else
+                    //{
+                    //    list.RemoveAt(0);
+                    //}
                     return result;
                 }
                 

@@ -18,6 +18,18 @@ public class DialogManagement : MonoBehaviour
     /// </summary>
     public GameObject endgameCanvas;
     /// <summary>
+    /// 結束背景
+    /// </summary>
+    public GameObject endgameBackground;
+    /// <summary>
+    /// 結束返回主選單按鈕
+    /// </summary>
+    public GameObject endgameButton;
+    /// <summary>
+    /// 結束返回主選單按鈕(Fin)
+    /// </summary>
+    public GameObject endgameFinButton;
+    /// <summary>
     /// 結束遊戲報紙
     /// </summary>
     public GameObject endgameNewspaper;

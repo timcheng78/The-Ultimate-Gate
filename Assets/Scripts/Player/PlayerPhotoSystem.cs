@@ -100,13 +100,13 @@ public class PlayerPhotoSystem : MonoBehaviour
         HandlePhotoDragging();
     }
 
-    public IEnumerator TakePhotoWithEffects()
+    public IEnumerator TakePhotoWithEffects(bool needPhoto = true)
     {
         // 閃光效果
         flashImage.color = new Color(1, 1, 1, 0.7f);
         yield return new WaitForSeconds(flashDuration);
         SoundManagement.Instance.PlaySoundFXClip(_photoClip, transform, 1f);
-        yield return StartCoroutine(CapturePhoto());
+        if (needPhoto) yield return StartCoroutine(CapturePhoto());
 
         // 淡出閃光
         float elapsed = 0f;

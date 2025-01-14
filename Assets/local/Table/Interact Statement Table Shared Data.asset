@@ -239,6 +239,10 @@ MonoBehaviour:
     m_Key: demo.paint.t.a
     m_Metadata:
       m_Items: []
+  - m_Id: 47189302980476928
+    m_Key: demo.door_leave.t.1
+    m_Metadata:
+      m_Items: []
   - m_Id: 32045208184651776
     m_Key: kitchen.button.t.1
     m_Metadata:

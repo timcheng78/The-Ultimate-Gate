@@ -60,7 +60,7 @@ MonoBehaviour:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: addbdde106ac1d84899e8cf11d642e72
-    m_Address: Storm Statement Table_en
+    m_Address: Normal End Credit Table_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en

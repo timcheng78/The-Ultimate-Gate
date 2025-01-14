@@ -75,10 +75,6 @@ MonoBehaviour:
     m_Key: any.rand_plot_16
     m_Metadata:
       m_Items: []
-  - m_Id: 5069036473384960
-    m_Key: any.rand_plot_17
-    m_Metadata:
-      m_Items: []
   - m_Id: 38374051115794432
     m_Key: kitchen_nolight.rand_plot_1
     m_Metadata:

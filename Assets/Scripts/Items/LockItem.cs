@@ -142,7 +142,7 @@ public class LockItem : MonoBehaviour, IInteractive, IDataPersistence
         yield return new WaitForSeconds(1.5f);
         // 真結局 結束
         AnimationManagement.Instance.Play("living_room_" + _type + "_door", "open");
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
         MainGame.Instance.ExitDoorEnd();
     }
 

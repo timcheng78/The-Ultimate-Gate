@@ -19,10 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 19622625280
-    m_Localized: "Is it over? \nAmid the fervent cheers, white dazzling lights flicker
-      endlessly. \nI can't clearly see who is who, or who is congratulating me. \nThey
-      say I'm the greatest puzzle master in history. \nLaughter\u2026 \npraise\u2026
-      \napplause\u2026 \nridicule?"
+    m_Localized: Congratulations, you have successfully escaped...?
     m_Metadata:
       m_Items: []
   - m_Id: 363578756005888

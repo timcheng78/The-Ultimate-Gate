@@ -179,6 +179,15 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PhotoMode"",
+                    ""type"": ""Button"",
+                    ""id"": ""8c945a36-c5d9-46d5-875f-e3c0193750f4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -685,6 +694,17 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""ResetRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""68d2f1aa-79ce-421e-b046-c40d2f62e732"",
+                    ""path"": ""<Keyboard>/f10"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PhotoMode"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1356,6 +1376,7 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
         m_Player_TakePhoto = m_Player.FindAction("TakePhoto", throwIfNotFound: true);
         m_Player_DeletePhoto = m_Player.FindAction("DeletePhoto", throwIfNotFound: true);
         m_Player_ResetRotation = m_Player.FindAction("ResetRotation", throwIfNotFound: true);
+        m_Player_PhotoMode = m_Player.FindAction("PhotoMode", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1452,6 +1473,7 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_TakePhoto;
     private readonly InputAction m_Player_DeletePhoto;
     private readonly InputAction m_Player_ResetRotation;
+    private readonly InputAction m_Player_PhotoMode;
     public struct PlayerActions
     {
         private @PlayerMoveInput m_Wrapper;
@@ -1473,6 +1495,7 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
         public InputAction @TakePhoto => m_Wrapper.m_Player_TakePhoto;
         public InputAction @DeletePhoto => m_Wrapper.m_Player_DeletePhoto;
         public InputAction @ResetRotation => m_Wrapper.m_Player_ResetRotation;
+        public InputAction @PhotoMode => m_Wrapper.m_Player_PhotoMode;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1533,6 +1556,9 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
             @ResetRotation.started += instance.OnResetRotation;
             @ResetRotation.performed += instance.OnResetRotation;
             @ResetRotation.canceled += instance.OnResetRotation;
+            @PhotoMode.started += instance.OnPhotoMode;
+            @PhotoMode.performed += instance.OnPhotoMode;
+            @PhotoMode.canceled += instance.OnPhotoMode;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1588,6 +1614,9 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
             @ResetRotation.started -= instance.OnResetRotation;
             @ResetRotation.performed -= instance.OnResetRotation;
             @ResetRotation.canceled -= instance.OnResetRotation;
+            @PhotoMode.started -= instance.OnPhotoMode;
+            @PhotoMode.performed -= instance.OnPhotoMode;
+            @PhotoMode.canceled -= instance.OnPhotoMode;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1879,6 +1908,7 @@ public partial class @PlayerMoveInput: IInputActionCollection2, IDisposable
         void OnTakePhoto(InputAction.CallbackContext context);
         void OnDeletePhoto(InputAction.CallbackContext context);
         void OnResetRotation(InputAction.CallbackContext context);
+        void OnPhotoMode(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

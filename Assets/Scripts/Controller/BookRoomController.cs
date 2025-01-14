@@ -74,7 +74,7 @@ public class BookRoomController : AbstractRoomController
                     SubtitleManagement.Instance.AddSentencesToShow("Interact Statement Table", new string[] { "book_room", "light_switch_mutation_4", "t" });
                     SteamInitManagement.Instance.UpdateStat(SteamInitManagement.STAT_TRIGGER_BOOK_ROOM_LOCK_COUNT_SEC, Timer.Instance.GetNowSec());
                     _silverKey.SetActive(true);
-                    Camera.main.GetComponent<CameraAttributes>().StartStorm();
+                    if (!Enviroment.Instance.IsDebug) Camera.main.GetComponent<CameraAttributes>().StartStorm();
                 }
                 break;
             case 5:

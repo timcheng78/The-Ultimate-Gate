@@ -33,6 +33,7 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
     //[SerializeField] private int _hintPerSec = 300;
     [SerializeField] private int _plotPerSec = 30;
 
+    private Transform _parentTransform;
     private Renderer _renderer;
     private Material[] _materials;
     private Vector3 _originPosition;
@@ -51,8 +52,9 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
         _materials = _renderer.materials;
 
         // setting origin transform
-        _originPosition = transform.position;
-        _originRotation = transform.rotation;
+        _parentTransform = transform.parent;
+        _originPosition = transform.localPosition;
+        _originRotation = transform.localRotation ;
         _originScale = transform.localScale;
 
         _playerMoveInput = new PlayerMoveInput();
@@ -146,6 +148,7 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
         if (_puzzleName.Equals("box") && _passwordPanel) _materials[^1].EnableKeyword("_EMISSION");
         else _materials[^1].SetFloat("_IsActive", 1);
         if (_boxRenderer) _boxRenderer.materials[^1].SetFloat("_IsActive", 1);
+        _materials[^1].SetFloat("_EMISSION", 1);
         if (!PlayerAttributes.Instance._activingItem) DialogManagement.Instance.interactDialog.SetActive(true);
         
     }
@@ -154,6 +157,7 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
     {
         if (_puzzleName.Equals("box") && _passwordPanel) _materials[^1].DisableKeyword("_EMISSION");
         else _materials[^1].SetFloat("_IsActive", 0);
+        _materials[^1].SetFloat("_EMISSION", 0);
         if (_boxRenderer) _boxRenderer.materials[^1].SetFloat("_IsActive", 0);
         DialogManagement.Instance.interactDialog.SetActive(false);
     }
@@ -176,6 +180,7 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
         cameraAttributes._screenLock = status;
         cameraAttributes._cursorVisable = status;
         cameraAttributes._cursorLockMode = status ? CursorLockMode.Confined : CursorLockMode.Locked;
+        CameraManagement.Instance._interactCamera.orthographic = false;
         _isActiving = status;
         if (_isActiving) Camera.main.GetComponent<CameraAttributes>().ZeroCameraSpeed();
         else StartCoroutine(Camera.main.GetComponent<CameraAttributes>().RestoreCameraSpeed());
@@ -213,7 +218,8 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
     {
         TogglePlayerSetting(false);
 
-        transform.SetPositionAndRotation(_originPosition, _originRotation);
+        transform.localPosition = _originPosition;
+        transform.localRotation = _originRotation;
         transform.localScale = _originScale;
 
         // play sound
@@ -450,6 +456,10 @@ public class PasswordPanelItem : MonoBehaviour, IInteractive, ILockScreenObject,
         bool isSolve = SharedUtils.StartCheckAnswer(_location, _puzzleName);
         if (isSolve && _puzzleName.Equals("air_puzzle")) LockManagement.Instance.Unlock(_location, "door");
         if (!isSolve && _errorSoundClip) SoundManagement.Instance.PlaySoundFXClip(_errorSoundClip, transform, 1f);
+        if (isSolve && _location == "living_room" && _puzzleName == "door")
+        {
+            _puzzleController.GetComponent<AudioSource>().Pause();
+        }
     }
 
     private bool CanTrigger()

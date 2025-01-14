@@ -59,7 +59,7 @@ public class BedRoomController : AbstractRoomController
                 }
                 if (Enviroment.Instance.Level.Equals(4))
                 {
-                    _screenRenderer.StartScreenEmission();
+                    _screenRenderer.ToggleScreenEmission();
                 }
                 break;
         }

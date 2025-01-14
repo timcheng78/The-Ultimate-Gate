@@ -39,11 +39,13 @@ public class PlayerController : MonoBehaviour
     private bool _isWaiting = false;
     private bool _stopRotate = false;
     private bool _screenDraw = false;
+    private bool _photoMode = false;
     private GameObject _isDragging;
     private int _countTimes = 0;
     public static PlayerController Instance { get; private set; }
     public bool StopRotate { get => _stopRotate; set => _stopRotate = value; }
     public bool ScreenDraw { get => _screenDraw; }
+    public bool PhotoMode { get => _photoMode; }
     public GameObject IsDragging { get => _isDragging; set => _isDragging = value; }
 
     private void Awake()
@@ -277,6 +279,17 @@ public class PlayerController : MonoBehaviour
     public void OnResetRotation(InputValue value)
     {
         _interactController.ResetRotation();
+    }
+
+    public void OnPhotoMode(InputValue value)
+    {
+        // ©ç·Ó¼Ò¦¡
+        if (!Enviroment.Instance.IsDebug) return;
+        _photoMode = !_photoMode;
+
+        Timer.Instance.gameObject.SetActive(!_photoMode);
+        DialogManagement.Instance.accurateImage.SetActive(!_photoMode);
+        PlayerDraw.Instance.DrawCanvas.SetActive(!_photoMode);
     }
 
     public void OnCancel(InputValue value = null)

@@ -19,24 +19,33 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 11266549240922112
-    m_Localized: "10...62. No, it's just a coincidence. \nYes, no one would know
-      I once lived in that rundown room on the second floor, No. 6, Section 10."
+    m_Localized: '10...62. No way! It must be a coincidence.
+
+      No one would
+      know that I once lived in that rundown room on the 2nd floor, No. 6, on 10th
+      Street.'
     m_Metadata:
       m_Items: []
   - m_Id: 11266549240922113
-    m_Localized: Damn, does 0835 mean something too? No... why am I thinking like
-      this?
+    m_Localized: Damn, does 0835 mean something too? No... why am I feeling this
+      way?
     m_Metadata:
       m_Items: []
   - m_Id: 11266549240922114
-    m_Localized: "The puzzle of the flipped dot matrix was developed by me nine years
-      ago in six different modes. \nIt appeared in episodes 4 and 7 of ROOM. \nWhy
-      am I still thinking about it after all this time?"
+    m_Localized: 'The flip-dot matrix puzzle was designed by me 6 years ago in 9
+      different varieties.
+
+      They appeared in the episode 4 and 7 of ROOM.
+
+      Why
+      it still took me so long to figure out the answer?'
     m_Metadata:
       m_Items: []
   - m_Id: 11266549240922115
-    m_Localized: "What are those dots of light? Floating dust? \nA hallucination
-      in my mind?"
+    m_Localized: 'What are those sparkles of light? Floating dust?
+
+      Or they''re
+      just a hallucination in my mind...?'
     m_Metadata:
       m_Items: []
   - m_Id: 10221460544651264
@@ -85,8 +94,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 37424916074168320
-    m_Localized: "Y-O-G, this is... Finally, I must have reached a realm that no
-      one can reach. \nPuzzle, puzzle, puzzle, puzzle, puzzle..."
+    m_Localized: Ia, Ia, Yog-Sothoth! Ossadogowah!
     m_Metadata:
       m_Items: []
   references:

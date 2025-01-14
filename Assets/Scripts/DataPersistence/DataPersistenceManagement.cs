@@ -15,6 +15,7 @@ public class DataPersistenceManagement : MonoBehaviour
     [SerializeField] private bool useVersionName;
     [SerializeField] private string fileName;
     [SerializeField] private string endFileName;
+    [SerializeField] private string normalEndName;
     [SerializeField] private bool useEncryption;
 
     [Header("Menu")]
@@ -74,6 +75,12 @@ public class DataPersistenceManagement : MonoBehaviour
         if (MainGame.Instance != null) MainGame.Instance.PreloadGameSetting();
     }
 
+    public bool IsNormalEnd()
+    {
+        if (FileDataHandler.CheckFileExist(Application.persistentDataPath, normalEndName)) return true;
+        return false;
+    }
+
     public bool HasEndFile()
     {
         if (FileDataHandler.CheckFileExist(Application.persistentDataPath, endFileName))
@@ -97,6 +104,17 @@ public class DataPersistenceManagement : MonoBehaviour
     {
         FileDataHandler endGameHandler = new FileDataHandler(Application.persistentDataPath, endFileName, useEncryption);
         SaveGame(endGameHandler, isCrazyEnd);
+    }
+
+    public void DeleteNormalFile()
+    {
+        FileDataHandler normalFileHandler = new FileDataHandler(Application.persistentDataPath, normalEndName, false);
+        normalFileHandler.Delete();
+    }
+
+    public void SaveNormalEndFile()
+    {
+        new FileDataHandler(Application.persistentDataPath, normalEndName, false).SaveNormalEndFile();
     }
 
     public void NewGame()

@@ -115,29 +115,45 @@ public class WordType : MonoBehaviour
         return int.Parse(parts[parts.Length - 1]);
     }
 
-    public IEnumerator PlayStoryPlot(string tableName, Action finishAction = null, List<int> range = null)
+    public IEnumerator PlayStoryPlot(string tableName, Action finishAction = null, List<int> range = null, bool singleWords = false)
     {
         SubtitleManagement.Instance.ToggleActiveCanvas(true);
         StringTable plotTable = DataPersistenceManagement.Instance.StringTables[tableName];
         var entryKeys = plotTable.Values;
         List<string> sortString = SortTableEntry(entryKeys);
         int count = 0;
+        bool isEng = LocalizationSettings.SelectedLocale.Equals(_english);
         foreach (string key in sortString)
         {
             if (range != null && !range.Contains(count++)) continue;
+            int engCount = 0;
             _isTyping = true;
             _soundFX.Play();
             foreach (string str in LocalizationSettings.StringDatabase.GetTableEntry(tableName, key).Entry.GetLocalizedString().Split(" "))
             {
-                _text += str;
-                // 英文要加空白
-                if (LocalizationSettings.SelectedLocale.Equals(_english)) _text += " ";
-                _textArea.SetText(_text);
-                yield return new WaitForSeconds(_textSpeed);
+                if (singleWords && isEng)
+                {
+                    foreach (char word in str)
+                    {
+                        _text += word;
+                        _textArea.SetText(_text);
+                        yield return new WaitForSeconds(.05f);
+                    }
+                    _text += " ";
+                }
+                else
+                {
+                    _text += str;
+                    // 英文要加空白
+                    if (isEng) _text += " ";
+                    _textArea.SetText(_text);
+                    yield return new WaitForSeconds(_textSpeed);
+                    engCount++;
+                }
             }
             _isTyping = false;
             _soundFX.Pause();
-            yield return new WaitForSeconds(_sentencesSpeed);
+            yield return new WaitForSeconds(_sentencesSpeed + (isEng ? engCount * 0.1f : 0));
             _text = "";
             _textArea.SetText(_text);
         }
@@ -147,18 +163,32 @@ public class WordType : MonoBehaviour
         _isTyping = false;
     }
 
-    public IEnumerator ShowSentences(string[] showTexts, Action<string> callback = null, string callbackParam = null)
+    public IEnumerator ShowSentences(string[] showTexts, Action<string> callback = null, string callbackParam = null, bool singleWords = false)
     {
         _isTyping = true;
         _soundFX.Play();
         yield return LocalizationSettings.InitializationOperation;
+        bool isEng = LocalizationSettings.SelectedLocale.Equals(_english);
         foreach (string str in showTexts)
         {
-            _text += str;
-            // 英文要加空白
-            if (LocalizationSettings.SelectedLocale.Equals(_english)) _text += " ";
-            _textArea.SetText(_text);
-            yield return new WaitForSeconds(_textSpeed);
+            if (singleWords && isEng)
+            {
+                foreach (char word in str)
+                {
+                    _text += word;
+                    _textArea.SetText(_text);
+                    yield return new WaitForSeconds(_textSpeed);
+                }
+                _text += " ";
+            }
+            else
+            {
+                _text += str;
+                // 英文要加空白
+                if (isEng) _text += " ";
+                _textArea.SetText(_text);
+                yield return new WaitForSeconds(_textSpeed);
+            }
         }
         _soundFX.Pause();
         if (dissolveEffect) dissolveEffect.enabled = true;

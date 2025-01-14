@@ -43,6 +43,7 @@ public class InteractController : MonoBehaviour
         if (!Enviroment.Instance.IsStartPlay) return;
         _origin = transform.position;
         _direction = transform.forward;
+        if (PlayerController.Instance.PhotoMode) return;
         InteractObjectScan();
         LightSensorScan();
     }

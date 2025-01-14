@@ -34,11 +34,15 @@ public class CameraManagement : MonoBehaviour
     /// </summary>
     public CinemachineVirtualCamera demoEndVirtualCamera;
     /// <summary>
+    /// 真結局第一顆鏡頭
+    /// </summary>
+    public CinemachineVirtualCamera truthEndFirstCamera;
+    /// <summary>
     /// 物件專用相機
     /// </summary>
     public Camera objectCamera;
     /// <summary>
-    /// TODO - REMOVE
+    /// 互動專用鏡頭
     /// </summary>
     public Camera _interactCamera;
 
@@ -79,5 +83,11 @@ public class CameraManagement : MonoBehaviour
         PlayerMovement.Instance.ToggleMove(!status);
         if (position.Equals("top")) ToggleTopHoleVirtualCamera(status);
         else if (position.Equals("bottom")) ToggleBottomHoleVirtualCamera(status);
+    }
+
+    public void TruthEndCameraSwitch()
+    {
+        TogglePlayerVirtualCamera(false);
+        truthEndFirstCamera.enabled = true;
     }
 }

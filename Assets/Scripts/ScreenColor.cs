@@ -14,17 +14,23 @@ public class ScreenColor : MonoBehaviour
     private float transitionProgress = 0; // 顏色轉換的進度
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         TryGetComponent<MeshRenderer>(out _render);
         _materials = _render.materials;
     }
 
-    // Update is called once per frame
-    void Update()
+    [ContextMenu("StartEmission")]
+    public void ToggleScreenEmission()
     {
-        if (!_isStart) return;
-        if (_colors.Length > 1)
+        _materials[^1].EnableKeyword("_EMISSION");
+        _isStart = !_isStart;
+        StartCoroutine(StartTransferColor());
+    }
+
+    IEnumerator StartTransferColor()
+    {
+        while (_isStart)
         {
             // 計算當前顏色和下一個顏色之間的插值
             Color nextColor = _colors[(currentColorIndex + 1) % _colors.Length];
@@ -39,12 +45,7 @@ public class ScreenColor : MonoBehaviour
                 transitionProgress = 0;
                 currentColorIndex = (currentColorIndex + 1) % _colors.Length;
             }
+            yield return null;
         }
-    }
-
-    public void StartScreenEmission()
-    {
-        _materials[^1].EnableKeyword("_EMISSION");
-        _isStart = true;
     }
 }

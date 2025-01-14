@@ -19,70 +19,81 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 1
-    m_Localized: "Why do these things look so messy? \nIs this second-rate show set
-      up incorrectly?"
+    m_Localized: 'Why do these things look so messy?
+
+      The crew from this low-budget
+      show misplaced the items?'
     m_Metadata:
       m_Items: []
   - m_Id: 2
-    m_Localized: "Alright, calm down, you can do this. \nYou've solved harder puzzles
-      before."
+    m_Localized: 'Alright, calm down, you can do this.
+
+      You''ve solved tons
+      of puzzles that were much harder than this.'
     m_Metadata:
       m_Items: []
   - m_Id: 3
-    m_Localized: "You know that in some parallel universe. \nYou've already solved
-      this puzzle, right?"
+    m_Localized: In some parallel universe, you've already solved this puzzle.
     m_Metadata:
       m_Items: []
   - m_Id: 4
-    m_Localized: Freaking out? These puzzles are just mocking you.
+    m_Localized: Going nuts? These puzzles are just teasing with you.
     m_Metadata:
       m_Items: []
   - m_Id: 5
-    m_Localized: "About to freak out? \nThat's right, just like you did before."
+    m_Localized: "About to freak out? \r\nThat's right, just like you did earlier."
     m_Metadata:
       m_Items: []
   - m_Id: 6
-    m_Localized: What did you write in the self-introduction on your application
-      form? Puzzle Master?
+    m_Localized: Puzzle Master? Surely you didn't put that in your resume, right?
     m_Metadata:
       m_Items: []
   - m_Id: 7
-    m_Localized: "Oh, giving up so soon? \nI thought you would stick it out till
-      the end."
+    m_Localized: 'Oh, giving up so soon?
+
+      I thought you would stick it out
+      till the end.'
     m_Metadata:
       m_Items: []
   - m_Id: 8
-    m_Localized: "Do you know what's an infinite loop in code? \nIt's like watching
-      the same thing over and over in the same place for like a dozen times."
+    m_Localized: 'Do you know what''s an infinite loop in programming?
+
+      It''s
+      like you''re stuck at the same place over and over again.'
     m_Metadata:
       m_Items: []
   - m_Id: 9
-    m_Localized: Will you uncover the truth by opening that door?
+    m_Localized: Would opening that door uncover all the truth?
     m_Metadata:
       m_Items: []
   - m_Id: 10
-    m_Localized: "Give it another try. \nYour intelligence is definitely higher than
-      that door's. \nRight?"
+    m_Localized: 'Give it another try.
+
+      You''re deffo smarter than that stupid
+      door... right?'
     m_Metadata:
       m_Items: []
   - m_Id: 11
-    m_Localized: "Shouldn't you consider taking a break? \nYou wouldn't want that
-      door to open too soon."
+    m_Localized: 'Why not take a break?
+
+      You wouldn''t want that door to be
+      opened so soon.'
     m_Metadata:
       m_Items: []
   - m_Id: 12
-    m_Localized: "Are these colors corresponding to the solutions on each wall? \nOr
-      numbers? Or am I mistaken?"
+    m_Localized: 'Are these colors corresponding to the answers on the walls?
+
+      Or
+      numbers? Or I''ve got it all wrong?'
     m_Metadata:
       m_Items: []
   - m_Id: 13
-    m_Localized: "Let's not rush. Step by step. \nLet's first figure out the relationship
-      with the numbers."
+    m_Localized: "No need to rush. Step by step. \r\nLet's first figure out the relationship
+      between the numbers."
     m_Metadata:
       m_Items: []
   - m_Id: 14
-    m_Localized: "Let's start from the cabinet. Switch perspectives. \nMaybe we can
-      see different facets."
+    m_Localized: Why not change the point of view and check outside of the cabinet?
     m_Metadata:
       m_Items: []
   - m_Id: 38743562272735232
@@ -90,13 +101,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16
-    m_Localized: "The Puzzle Cube requires you to cover every face. \nOh! Watch the
-      time."
+    m_Localized: 'The puzzle cube requires you to get all the Points aligned.
+
+      Oh!
+      Don''t forget about the time.'
     m_Metadata:
       m_Items: []
   - m_Id: 17
-    m_Localized: Sometimes the missing corners are deliberately left for a certain
-      meaning.
+    m_Localized: Maybe the missing corners were left there for a reason?
     m_Metadata:
       m_Items: []
   - m_Id: 18
@@ -105,13 +117,19 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 19
-    m_Localized: "Color, light, angle. \nWhat filter are you using to view those
-      cold, hard numbers?"
+    m_Localized: 'Colors, lights and angles.
+
+      What''s your perspective toward
+      those hard and cold numbers?'
     m_Metadata:
       m_Items: []
   - m_Id: 20
-    m_Localized: "S, W, E, N stands for what? News? Sewn? \nOr simply North, South,
-      East, West.\nCould it be that simple?"
+    m_Localized: 'What does S, W, E, N stand for? News? Sewn?
+
+      Or simply North,
+      South, East, West?
+
+      Could it be that simple?'
     m_Metadata:
       m_Items: []
   - m_Id: 21
@@ -352,6 +370,10 @@ MonoBehaviour:
   - m_Id: 43943195798241280
     m_Localized: Are you sure you want to leave? Once you click again after the thought
       disappears, it will be over!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47189302980476928
+    m_Localized: I forgot to take something.
     m_Metadata:
       m_Items: []
   references:

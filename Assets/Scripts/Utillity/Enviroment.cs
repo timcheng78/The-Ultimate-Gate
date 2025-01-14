@@ -23,6 +23,10 @@ public class Enviroment : MonoBehaviour, IDataPersistence
     /// </summary>
     [SerializeField] private bool _isDemo;
     /// <summary>
+    /// 測試模式
+    /// </summary>
+    [SerializeField] private bool _isDebug;
+    /// <summary>
     /// 是否開始遊玩
     /// </summary>
     [SerializeField] private bool _isStartPlay;
@@ -62,6 +66,7 @@ public class Enviroment : MonoBehaviour, IDataPersistence
     public bool IsElectrified { get => _isElectrified; set => _isElectrified = value; }
     public bool IsPause { get => _isPause; set => _isPause = value; }
     public bool IsDemo { get => _isDemo; set => _isDemo = value; }
+    public bool IsDebug { get => _isDebug; }
     public bool IsStartPlay { get => _isStartPlay; set => _isStartPlay = value; }
     public bool SkipTutorial { get => _skipTutorial; private set => _skipTutorial = value; }
     public GameObject Player { get => _player; private set => _player = value; }
